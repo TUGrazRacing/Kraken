@@ -16,19 +16,20 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
+  Documentation:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4
+      - name: Get workspace 
+        uses: actions/checkout@v4
 
       # Runs a set of commands using the runners shell
       - name: Build documentation
         uses: mattnotmitt/doxygen-action@v1.12.0
         with:
-          working-directory: '${{ github.workspace }}/$GITHUB_WORKSPACE/docs/Kraken'
+          working-directory: '${{ github.workspace }}/docs/Kraken'
           doxyfile-path: './Doxyfile'
           
