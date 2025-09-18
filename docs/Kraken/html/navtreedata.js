@@ -24,14 +24,31 @@
 */
 var NAVTREE =
 [
-  [ "Kraken", "index.html", ]
+  [ "Kraken", "index.html", [
+    [ "Description", "md__2home_2runner_2work_2Kraken_2Kraken_2Firmware_2README.html", null ],
+    [ "Packages", "namespaces.html", [
+      [ "Package List", "namespaces.html", "namespaces_dup" ]
+    ] ],
+    [ "Design Units", "annotated.html", [
+      [ "Design Unit List", "annotated.html", "annotated_dup" ],
+      [ "Design Unit Index", "classes.html", null ],
+      [ "Design Unit Hierarchy", "hierarchy.html", null ],
+      [ "Design Unit Members", "functions.html", [
+        [ "All", "functions.html", null ],
+        [ "Functions/Procedures/Processes", "functions_func.html", null ],
+        [ "Variables", "functions_vars.html", null ]
+      ] ]
+    ] ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ]
+    ] ]
+  ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"index.html"
+"SWDComponents_8vhd.html"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronization';
-var SYNCOFFMSG = 'click to enable panel synchronization';
-var LISTOFALLMEMBERS = 'List of all members';
+var SYNCONMSG = 'click to disable panel synchronisation';
+var SYNCOFFMSG = 'click to enable panel synchronisation';
