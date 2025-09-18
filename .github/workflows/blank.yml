@@ -25,11 +25,13 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Get workspace 
         uses: actions/checkout@v4
+      - run: |
+          dir ${{github.workspace}}
+        
 
       # Runs a set of commands using the runners shell
       - name: Build documentation
-        uses: mattnotmitt/doxygen-action@v1.12.0
-        with:
-          working-directory: '$GITHUB_WORKSPACE/docs/Kraken'
-          doxyfile-path: './Doxyfile'
+        run: |
+          sudo apt install doxygen
+          cd ${GITHUB_WORKSPACE}
           
