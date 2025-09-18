@@ -30,6 +30,6 @@ jobs:
       - name: Build documentation
         uses: mattnotmitt/doxygen-action@v1.12.0
         with:
-          working-directory: '${{ github.workspace }}/docs/Kraken'
+          working-directory: '$GITHUB_WORKSPACE/docs/Kraken'
           doxyfile-path: './Doxyfile'
           
