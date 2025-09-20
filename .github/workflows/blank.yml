@@ -20,10 +20,13 @@ jobs:
         with:
           fetch-depth: 0  #  required to push commits
 
+      - name: Setup Doxygen
+        uses: mattnotmitt/doxygen-action@v1
+        with:
+          doxygen-version: '1.14.0'
+
       - name: Build documentation
         run: |
-          sudo apt update
-          sudo apt install -y doxygen=1.14.0
           cd ${{ github.workspace }}/docs/Kraken
           rm -rf ./html
           ls
