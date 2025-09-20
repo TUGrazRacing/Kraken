@@ -1,0 +1,112 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Users\Jakob\Documents\dev\RacingTeam\Kraken\Firmware\fpga\tests\nios2\nios_uart.qsys --block-symbol-file --output-directory=C:\Users\Jakob\Documents\dev\RacingTeam\Kraken\Firmware\fpga\tests\nios2\nios_uart --family="MAX 10" --part=10M16SAU169C8G
+Progress: Loading nios2/nios_uart.qsys
+Progress: Reading input file
+Progress: Adding altpll_0 [altpll 23.1]
+Progress: Parameterizing module altpll_0
+Progress: Adding clock_bridge_0 [altera_clock_bridge 23.1]
+Progress: Parameterizing module clock_bridge_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 23.1]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 23.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding pio_0 [altera_avalon_pio 23.1]
+Progress: Parameterizing module pio_0
+Progress: Adding reset_bridge_0 [altera_reset_bridge 23.1]
+Progress: Parameterizing module reset_bridge_0
+Progress: Adding uart_0 [altera_avalon_uart 23.1]
+Progress: Parameterizing module uart_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: nios_uart.nios2_gen2_0: Nios II cores are not recommended for new projects and are subject to removal in a future release. Nios V cores are the recommended replacement as applicable.
+Warning: nios_uart.: You have exported the interface reset_bridge_0.in_reset but not its associated clock interface.  Export the driver of reset_bridge_0.clk
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\Jakob\Documents\dev\RacingTeam\Kraken\Firmware\fpga\tests\nios2\nios_uart.qsys --synthesis=VHDL --output-directory=C:\Users\Jakob\Documents\dev\RacingTeam\Kraken\Firmware\fpga\tests\nios2\nios_uart\synthesis --family="MAX 10" --part=10M16SAU169C8G
+Progress: Loading nios2/nios_uart.qsys
+Progress: Reading input file
+Progress: Adding altpll_0 [altpll 23.1]
+Progress: Parameterizing module altpll_0
+Progress: Adding clock_bridge_0 [altera_clock_bridge 23.1]
+Progress: Parameterizing module clock_bridge_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 23.1]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 23.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding pio_0 [altera_avalon_pio 23.1]
+Progress: Parameterizing module pio_0
+Progress: Adding reset_bridge_0 [altera_reset_bridge 23.1]
+Progress: Parameterizing module reset_bridge_0
+Progress: Adding uart_0 [altera_avalon_uart 23.1]
+Progress: Parameterizing module uart_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: nios_uart.nios2_gen2_0: Nios II cores are not recommended for new projects and are subject to removal in a future release. Nios V cores are the recommended replacement as applicable.
+Warning: nios_uart.: You have exported the interface reset_bridge_0.in_reset but not its associated clock interface.  Export the driver of reset_bridge_0.clk
+Info: nios_uart: Generating nios_uart "nios_uart" for QUARTUS_SYNTH
+Info: Inserting clock-crossing logic between cmd_demux.src1 and cmd_mux_001.sink0
+Info: Inserting clock-crossing logic between rsp_demux_001.src0 and rsp_mux.sink1
+Info: altpll_0: "nios_uart" instantiated altpll "altpll_0"
+Info: nios2_gen2_0: "nios_uart" instantiated altera_nios2_gen2 "nios2_gen2_0"
+Info: onchip_memory2_0: Starting RTL generation for module 'nios_uart_onchip_memory2_0'
+Info: onchip_memory2_0:   Generation command is [exec cmd /c {set LC_ALL=C&& C:/intelfpga_lite/23.1std/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/23.1std/quartus/bin64/perl/lib -I C:/intelfpga_lite/23.1std/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/23.1std/quartus/sopc_builder/bin -I C:/intelfpga_lite/23.1std/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/23.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/23.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=nios_uart_onchip_memory2_0 --dir=C:/Users/Jakob/AppData/Local/Temp/alt0351_6114874143656156452.dir/0031_onchip_memory2_0_gen/ --quartus_dir=C:/intelfpga_lite/23.1std/quartus --verilog --config=C:/Users/Jakob/AppData/Local/Temp/alt0351_6114874143656156452.dir/0031_onchip_memory2_0_gen//nios_uart_onchip_memory2_0_component_configuration.pl --do_build_sim=0}]
+Info: onchip_memory2_0: Done RTL generation for module 'nios_uart_onchip_memory2_0'
+Info: onchip_memory2_0: "nios_uart" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: pio_0: Starting RTL generation for module 'nios_uart_pio_0'
+Info: pio_0:   Generation command is [exec cmd /c {set LC_ALL=C&& C:/intelfpga_lite/23.1std/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/23.1std/quartus/bin64/perl/lib -I C:/intelfpga_lite/23.1std/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/23.1std/quartus/sopc_builder/bin -I C:/intelfpga_lite/23.1std/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/23.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/23.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_uart_pio_0 --dir=C:/Users/Jakob/AppData/Local/Temp/alt0351_6114874143656156452.dir/0032_pio_0_gen/ --quartus_dir=C:/intelfpga_lite/23.1std/quartus --verilog --config=C:/Users/Jakob/AppData/Local/Temp/alt0351_6114874143656156452.dir/0032_pio_0_gen//nios_uart_pio_0_component_configuration.pl --do_build_sim=0}]
+Info: pio_0: Done RTL generation for module 'nios_uart_pio_0'
+Info: pio_0: "nios_uart" instantiated altera_avalon_pio "pio_0"
+Info: uart_0: Starting RTL generation for module 'nios_uart_uart_0'
+Info: uart_0:   Generation command is [exec cmd /c {set LC_ALL=C&& C:/intelfpga_lite/23.1std/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/23.1std/quartus/bin64/perl/lib -I C:/intelfpga_lite/23.1std/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/23.1std/quartus/sopc_builder/bin -I C:/intelfpga_lite/23.1std/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/23.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_uart -- C:/intelfpga_lite/23.1std/quartus/../ip/altera/sopc_builder_ip/altera_avalon_uart/generate_rtl.pl --name=nios_uart_uart_0 --dir=C:/Users/Jakob/AppData/Local/Temp/alt0351_6114874143656156452.dir/0033_uart_0_gen/ --quartus_dir=C:/intelfpga_lite/23.1std/quartus --verilog --config=C:/Users/Jakob/AppData/Local/Temp/alt0351_6114874143656156452.dir/0033_uart_0_gen//nios_uart_uart_0_component_configuration.pl --do_build_sim=0}]
+Info: uart_0: Done RTL generation for module 'nios_uart_uart_0'
+Info: uart_0: "nios_uart" instantiated altera_avalon_uart "uart_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "nios_uart" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "nios_uart" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "nios_uart" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'nios_uart_nios2_gen2_0_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/23.1std/quartus/bin64//perl/bin/perl.exe -I C:/intelFPGA_lite/23.1std/quartus/bin64//perl/lib -I C:/intelfpga_lite/23.1std/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/23.1std/quartus/sopc_builder/bin -I C:/intelfpga_lite/23.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/23.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/23.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/23.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/23.1std/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.pl --name=nios_uart_nios2_gen2_0_cpu --dir=C:/Users/Jakob/AppData/Local/Temp/alt0351_6114874143656156452.dir/0036_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/23.1std/quartus/bin64/ --verilog --config=C:/Users/Jakob/AppData/Local/Temp/alt0351_6114874143656156452.dir/0036_cpu_gen//nios_uart_nios2_gen2_0_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2025.09.20 10:23:27 (*) Starting Nios II generation
+Info: cpu: # 2025.09.20 10:23:27 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2025.09.20 10:23:27 (*)   Creating all objects for CPU
+Info: cpu: # 2025.09.20 10:23:28 (*)   Generating RTL from CPU objects
+Info: cpu: # 2025.09.20 10:23:28 (*)   Creating plain-text RTL
+Info: cpu: # 2025.09.20 10:23:29 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'nios_uart_nios2_gen2_0_cpu'
+Info: cpu: "nios2_gen2_0" instantiated altera_nios2_gen2_unit "cpu"
+Info: nios2_gen2_0_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_gen2_0_data_master_translator"
+Info: nios2_gen2_0_debug_mem_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "nios2_gen2_0_debug_mem_slave_translator"
+Info: nios2_gen2_0_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_gen2_0_data_master_agent"
+Info: nios2_gen2_0_debug_mem_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "nios2_gen2_0_debug_mem_slave_agent"
+Info: nios2_gen2_0_debug_mem_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "nios2_gen2_0_debug_mem_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_001"
+Info: Reusing file C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/nios_uart/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_001"
+Info: rsp_demux_002: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_002"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/nios_uart/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/nios_uart/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: crosser: "mm_interconnect_0" instantiated altera_avalon_st_handshake_clock_crosser "crosser"
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: nios_uart: Done "nios_uart" with 30 modules, 48 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

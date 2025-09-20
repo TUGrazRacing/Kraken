@@ -1,0 +1,31 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+
+
+entity SoftcoreMCU is
+	port(
+		clk : in std_logic;
+		reset : in std_logic;
+		rx : in std_logic;
+		tx : out std_logic;
+	);
+end entity;
+
+
+architecture bahaviour of SoftcoreMCU 
+
+begin
+
+
+MCU : nios_uart 
+port map(
+	clock_bridge_0_in_clk_clk => clk,
+	reset_bridge_0_in_reset_reset => reset,
+	uart_0_external_connection_rxd => rx,
+	uart_0_external_connection_txd => tx
+);
+
+
+
+end behaviour;

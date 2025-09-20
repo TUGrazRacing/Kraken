@@ -1,0 +1,821 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+                              obj/default/main.o (puts)
+c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-strlen.o)
+                              c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o) (strlen)
+c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-impure.o)
+                              c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o) (_impure_ptr)
+c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-fvwrite_small_dev.o)
+                              c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o) (__sfvwrite_small_dev)
+c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o)
+                              c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-fvwrite_small_dev.o) (_write_r)
+c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-int_errno.o)
+                              c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o) (errno)
+c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_load.o)
+                              c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp//obj/HAL/src/crt0.o (alt_load)
+c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_main.o)
+                              c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp//obj/HAL/src/crt0.o (alt_main)
+c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_usleep.o)
+                              obj/default/main.o (usleep)
+c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_write.o)
+                              c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o) (write)
+c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_sys_init.o)
+                              c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_main.o) (alt_irq_init)
+c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(altera_avalon_uart_fd.o)
+                              c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_avalon_uart_read_fd)
+c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(altera_avalon_uart_read.o)
+                              c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(altera_avalon_uart_fd.o) (altera_avalon_uart_read)
+c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(altera_avalon_uart_write.o)
+                              c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(altera_avalon_uart_fd.o) (altera_avalon_uart_write)
+c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                              c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_usleep.o) (alt_busy_sleep)
+c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_close.o)
+                              c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_main.o) (close)
+c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                              c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_dev.o)
+                              c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_write.o) (alt_fd_list)
+c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                              c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_llist_insert)
+c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                              c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_main.o) (_do_ctors)
+c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                              c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_main.o) (_do_dtors)
+c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_errno.o)
+                              c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_write.o) (alt_errno)
+c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                              c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                              c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_main.o) (alt_io_redirect)
+c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_open.o)
+                              c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_io_redirect.o) (open)
+c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_release_fd.o)
+                              c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_close.o) (alt_release_fd)
+c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                              c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_nios2_gen2_irq_init)
+c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_find_dev.o)
+                              c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_open.o) (alt_find_dev)
+c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_find_file.o)
+                              c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_open.o) (alt_find_file)
+c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_get_fd.o)
+                              c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_open.o) (alt_get_fd)
+c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-atexit.o)
+                              c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_main.o) (atexit)
+c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o)
+                              c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_main.o) (exit)
+c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcmp.o)
+                              c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_find_dev.o) (memcmp)
+c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcpy.o)
+                              c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_load.o) (memcpy)
+c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__atexit.o)
+                              c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-atexit.o) (__register_exitproc)
+c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__call_atexit.o)
+                              c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o) (__call_exitprocs)
+c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+                              c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_busy_sleep.o) (__udivsi3)
+c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_exit.o)
+                              c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o) (_exit)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x00000000         0x00000020
+onchip_memory2_0 0x00000020         0x00008898
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/main.o
+LOAD c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libstdc++.a
+LOAD c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libm.a
+LOAD c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a
+START GROUP
+LOAD c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a
+LOAD c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a
+LOAD c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a
+LOAD c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libm.a
+END GROUP
+LOAD c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a
+                0x00000000                        __alt_mem_onchip_memory2_0 = 0x0
+
+.entry          0x00000000       0x20
+ *(.entry)
+ .entry         0x00000000       0x20 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp//obj/HAL/src/crt0.o
+                0x00000000                __reset
+
+.exceptions     0x00000020        0x0
+                0x00000020                        PROVIDE (__ram_exceptions_start = ABSOLUTE (.))
+                0x00000020                        . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ *(.exceptions.notirq.label)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ *(.exceptions.exit.label)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ *(.exceptions)
+                0x00000020                        PROVIDE (__ram_exceptions_end = ABSOLUTE (.))
+                0x00000020                        PROVIDE (__flash_exceptions_start = LOADADDR (.exceptions))
+
+.text           0x00000020      0xfc4
+                [!provide]                        PROVIDE (stext = ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x00000020       0x3c c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp//obj/HAL/src/crt0.o
+                0x00000020                _start
+ .text          0x0000005c       0x54 obj/default/main.o
+                0x0000005c                main
+ .text          0x000000b0        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+ .text._puts_r  0x000000b0       0x80 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+                0x000000b0                _puts_r
+ .text.puts     0x00000130       0x10 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+                0x00000130                puts
+ .text          0x00000140        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-strlen.o)
+ .text.strlen   0x00000140       0x1c c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-strlen.o)
+                0x00000140                strlen
+ .text          0x0000015c        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-impure.o)
+ .text          0x0000015c        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-fvwrite_small_dev.o)
+ .text.__sfvwrite_small_dev
+                0x0000015c       0xa8 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-fvwrite_small_dev.o)
+                0x0000015c                __sfvwrite_small_dev
+ .text          0x00000204        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o)
+ .text._write_r
+                0x00000204       0x50 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o)
+                0x00000204                _write_r
+ .text          0x00000254        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-int_errno.o)
+ .text          0x00000254       0x84 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_load.o)
+                0x00000254                alt_load
+ .text          0x000002d8       0x60 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_main.o)
+                0x000002d8                alt_main
+ .text          0x00000338        0x4 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_usleep.o)
+                0x00000338                usleep
+ .text          0x0000033c       0xa4 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_write.o)
+                0x00000350                write
+ .text          0x000003e0       0x30 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x000003e0                alt_irq_init
+                0x00000400                alt_sys_init
+ .text          0x00000410       0x20 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(altera_avalon_uart_fd.o)
+                0x00000410                altera_avalon_uart_read_fd
+                0x00000420                altera_avalon_uart_write_fd
+ .text          0x00000430       0x78 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(altera_avalon_uart_read.o)
+                0x00000430                altera_avalon_uart_read
+ .text          0x000004a8       0x84 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(altera_avalon_uart_write.o)
+                0x000004a8                altera_avalon_uart_write
+ .text          0x0000052c       0x80 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                0x0000052c                alt_busy_sleep
+ .text          0x000005ac       0xb8 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_close.o)
+                0x000005ac                close
+ .text          0x00000664        0x4 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x00000664                alt_dcache_flush_all
+ .text          0x00000668        0x8 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_dev.o)
+ .text          0x00000670       0x68 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                0x00000670                alt_dev_llist_insert
+ .text          0x000006d8       0x48 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                0x000006d8                _do_ctors
+ .text          0x00000720       0x48 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                0x00000720                _do_dtors
+ .text          0x00000768        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_errno.o)
+ .text          0x00000768        0x4 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                0x00000768                alt_icache_flush_all
+ .text          0x0000076c       0xdc c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                0x000007e4                alt_io_redirect
+ .text          0x00000848      0x160 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_open.o)
+                0x00000848                open
+ .text          0x000009a8       0x2c c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_release_fd.o)
+                0x000009a8                alt_release_fd
+ .text          0x000009d4        0x8 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                0x000009d4                altera_nios2_gen2_irq_init
+ .text          0x000009dc       0x70 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_find_dev.o)
+                0x000009dc                alt_find_dev
+ .text          0x00000a4c       0x9c c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_find_file.o)
+                0x00000a4c                alt_find_file
+ .text          0x00000ae8       0x54 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_get_fd.o)
+                0x00000ae8                alt_get_fd
+ .text          0x00000b3c        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-atexit.o)
+ .text.atexit   0x00000b3c       0x14 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-atexit.o)
+                0x00000b3c                atexit
+ .text          0x00000b50        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o)
+ .text.exit     0x00000b50       0x20 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o)
+                0x00000b50                exit
+ .text          0x00000b70        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcmp.o)
+ .text.memcmp   0x00000b70       0x30 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcmp.o)
+                0x00000b70                memcmp
+ .text          0x00000ba0        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcpy.o)
+ .text.memcpy   0x00000ba0       0x28 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcpy.o)
+                0x00000ba0                memcpy
+ .text          0x00000bc8        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__atexit.o)
+ .text.__register_exitproc
+                0x00000bc8      0x128 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__atexit.o)
+                0x00000bc8                __register_exitproc
+ .text          0x00000cf0        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x00000cf0      0x12c c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__call_atexit.o)
+                0x00000cf0                __call_exitprocs
+ .text          0x00000e1c      0x1b4 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+                0x00000e1c                __divsi3
+                0x00000e9c                __modsi3
+                0x00000f10                __udivsi3
+                0x00000f74                __umodsi3
+ .text          0x00000fd0       0x14 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_exit.o)
+                0x00000fd0                _exit
+ *(.gnu.warning.*)
+ *(.fini)
+                [!provide]                        PROVIDE (__etext = ABSOLUTE (.))
+                [!provide]                        PROVIDE (_etext = ABSOLUTE (.))
+                [!provide]                        PROVIDE (etext = ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x00000fe4                        . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__preinit_array_start = ABSOLUTE (.))
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (__init_array_start = ABSOLUTE (.))
+ *(SORT_BY_INIT_PRIORITY(.init_array.*))
+ *(.init_array)
+                [!provide]                        PROVIDE (__init_array_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (__fini_array_start = ABSOLUTE (.))
+ *(.fini_array)
+                [!provide]                        PROVIDE (__fini_array_end = ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                0x00000fe4                        PROVIDE (__CTOR_LIST__ = ABSOLUTE (.))
+ *(.ctors)
+ *(SORT_BY_NAME(.ctors.*))
+                0x00000fe4                        PROVIDE (__CTOR_END__ = ABSOLUTE (.))
+                0x00000fe4                        PROVIDE (__DTOR_LIST__ = ABSOLUTE (.))
+ *(.dtors)
+ *(SORT_BY_NAME(.dtors.*))
+                0x00000fe4                        PROVIDE (__DTOR_END__ = ABSOLUTE (.))
+ *(.jcr)
+                0x00000fe4                        . = ALIGN (0x4)
+
+.rodata         0x00000fe4       0x28
+                0x00000fe4                        PROVIDE (__ram_rodata_start = ABSOLUTE (.))
+                0x00000fe4                        . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x00000fe4        0xc obj/default/main.o
+ .rodata._puts_r.str1.4
+                0x00000ff0        0x2 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+ *fill*         0x00000ff2        0x2 
+ .rodata.str1.4
+                0x00000ff4        0xc c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_main.o)
+ .rodata.str1.4
+                0x00001000        0xc c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .rodata.str1.4
+                0x00001000        0xa c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_dev.o)
+ *(.rodata1)
+                0x0000100c                        . = ALIGN (0x4)
+ *fill*         0x0000100a        0x2 
+                0x0000100c                        PROVIDE (__ram_rodata_end = ABSOLUTE (.))
+                0x00000fe4                        PROVIDE (__flash_rodata_start = LOADADDR (.rodata))
+
+.rwdata         0x0000100c      0x244 load address 0x00001250
+                0x0000100c                        PROVIDE (__ram_rwdata_start = ABSOLUTE (.))
+                0x0000100c                        . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000100c        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp//obj/HAL/src/crt0.o
+ .data          0x0000100c        0x0 obj/default/main.o
+ .data          0x0000100c        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+ .data          0x0000100c        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-strlen.o)
+ .data          0x0000100c        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-impure.o)
+ .data._impure_data
+                0x0000100c       0x54 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-impure.o)
+                0x0000100c                _impure_data
+ .data          0x00001060        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-fvwrite_small_dev.o)
+ .data          0x00001060        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o)
+ .data          0x00001060        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-int_errno.o)
+ .data          0x00001060        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_load.o)
+ .data          0x00001060        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_main.o)
+ .data          0x00001060        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_usleep.o)
+ .data          0x00001060        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_write.o)
+ .data          0x00001060       0x2c c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .data          0x0000108c        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(altera_avalon_uart_fd.o)
+ .data          0x0000108c        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(altera_avalon_uart_read.o)
+ .data          0x0000108c        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(altera_avalon_uart_write.o)
+ .data          0x0000108c        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .data          0x0000108c        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_close.o)
+ .data          0x0000108c        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x0000108c      0x1a8 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_dev.o)
+                0x0000108c                alt_fd_list
+                0x0000120c                alt_dev_null
+ .data          0x00001234        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .data          0x00001234        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .data          0x00001234        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .data          0x00001234        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_errno.o)
+ .data          0x00001234        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x00001234        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .data          0x00001234        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_open.o)
+ .data          0x00001234        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .data          0x00001234        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .data          0x00001234        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .data          0x00001234        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_find_file.o)
+ .data          0x00001234        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .data          0x00001234        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-atexit.o)
+ .data          0x00001234        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o)
+ .data          0x00001234        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcmp.o)
+ .data          0x00001234        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcpy.o)
+ .data          0x00001234        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__atexit.o)
+ .data          0x00001234        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__call_atexit.o)
+ .data          0x00001234        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .data          0x00001234        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_exit.o)
+                0x00009234                        _gp = ABSOLUTE ((. + 0x8000))
+                [!provide]                        PROVIDE (gp = _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata._impure_ptr
+                0x00001234        0x4 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-impure.o)
+                0x00001234                _impure_ptr
+ .sdata         0x00001238       0x14 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_dev.o)
+                0x00001238                alt_max_fd
+                0x0000123c                alt_dev_list
+                0x00001244                alt_fs_list
+ .sdata         0x0000124c        0x4 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_errno.o)
+                0x0000124c                alt_errno
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x00001250                        . = ALIGN (0x4)
+                0x00001250                        _edata = ABSOLUTE (.)
+                [!provide]                        PROVIDE (edata = ABSOLUTE (.))
+                0x00001250                        PROVIDE (__ram_rwdata_end = ABSOLUTE (.))
+                0x00001250                        PROVIDE (__flash_rwdata_start = LOADADDR (.rwdata))
+
+.bss            0x00001494       0xa4
+                0x00001494                        __bss_start = ABSOLUTE (.)
+                [!provide]                        PROVIDE (__sbss_start = ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_start = ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss.errno    0x00001494        0x4 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-int_errno.o)
+                0x00001494                errno
+ .sbss          0x00001498        0xc c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_main.o)
+                0x00001498                alt_envp
+                0x0000149c                alt_argv
+                0x000014a0                alt_argc
+ .sbss.__stdio_exit_handler
+                0x000014a4        0x4 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o)
+                0x000014a4                __stdio_exit_handler
+ .sbss.__atexit
+                0x000014a8        0x4 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__call_atexit.o)
+                0x000014a8                __atexit
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                [!provide]                        PROVIDE (__sbss_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_end = ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000014ac        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp//obj/HAL/src/crt0.o
+ .bss           0x000014ac        0x0 obj/default/main.o
+ .bss           0x000014ac        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+ .bss           0x000014ac        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-strlen.o)
+ .bss           0x000014ac        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-impure.o)
+ .bss           0x000014ac        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-fvwrite_small_dev.o)
+ .bss           0x000014ac        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o)
+ .bss           0x000014ac        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-int_errno.o)
+ .bss           0x000014ac        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_load.o)
+ .bss           0x000014ac        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_main.o)
+ .bss           0x000014ac        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_usleep.o)
+ .bss           0x000014ac        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_write.o)
+ .bss           0x000014ac        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .bss           0x000014ac        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(altera_avalon_uart_fd.o)
+ .bss           0x000014ac        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(altera_avalon_uart_read.o)
+ .bss           0x000014ac        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(altera_avalon_uart_write.o)
+ .bss           0x000014ac        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .bss           0x000014ac        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_close.o)
+ .bss           0x000014ac        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x000014ac        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_dev.o)
+ .bss           0x000014ac        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .bss           0x000014ac        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .bss           0x000014ac        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .bss           0x000014ac        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_errno.o)
+ .bss           0x000014ac        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x000014ac        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .bss           0x000014ac        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_open.o)
+ .bss           0x000014ac        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .bss           0x000014ac        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .bss           0x000014ac        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .bss           0x000014ac        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_find_file.o)
+ .bss           0x000014ac        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .bss           0x000014ac        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-atexit.o)
+ .bss           0x000014ac        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o)
+ .bss           0x000014ac        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcmp.o)
+ .bss           0x000014ac        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcpy.o)
+ .bss           0x000014ac        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__atexit.o)
+ .bss.__atexit0
+                0x000014ac       0x8c c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__atexit.o)
+                0x000014ac                __atexit0
+ .bss           0x00001538        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__call_atexit.o)
+ .bss           0x00001538        0x0 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .bss           0x00001538        0x0 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_exit.o)
+ *(COMMON)
+                0x00001538                        . = ALIGN (0x4)
+                0x00001538                        __bss_end = ABSOLUTE (.)
+
+.onchip_memory2_0
+                0x00001538        0x0
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory2_0_start = ABSOLUTE (.))
+ *(.onchip_memory2_0 .onchip_memory2_0. onchip_memory2_0.*)
+                0x00001538                        . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory2_0_end = ABSOLUTE (.))
+                0x00001538                        _end = ABSOLUTE (.)
+                0x00001538                        end = ABSOLUTE (.)
+                0x00001538                        __alt_stack_base = ABSOLUTE (.)
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory2_0_load_addr = LOADADDR (.onchip_memory2_0))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2d
+ *(.comment)
+ .comment       0x00000000       0x2d obj/default/main.o
+                                 0x2e (size before relaxing)
+ .comment       0x0000002d       0x2e c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+ .comment       0x0000002d       0x2e c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-strlen.o)
+ .comment       0x0000002d       0x2e c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-impure.o)
+ .comment       0x0000002d       0x2e c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-fvwrite_small_dev.o)
+ .comment       0x0000002d       0x2e c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o)
+ .comment       0x0000002d       0x2e c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-int_errno.o)
+ .comment       0x0000002d       0x2e c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_load.o)
+ .comment       0x0000002d       0x2e c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_main.o)
+ .comment       0x0000002d       0x2e c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_usleep.o)
+ .comment       0x0000002d       0x2e c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_write.o)
+ .comment       0x0000002d       0x2e c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .comment       0x0000002d       0x2e c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(altera_avalon_uart_fd.o)
+ .comment       0x0000002d       0x2e c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(altera_avalon_uart_read.o)
+ .comment       0x0000002d       0x2e c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(altera_avalon_uart_write.o)
+ .comment       0x0000002d       0x2e c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .comment       0x0000002d       0x2e c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_close.o)
+ .comment       0x0000002d       0x2e c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x0000002d       0x2e c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_dev.o)
+ .comment       0x0000002d       0x2e c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .comment       0x0000002d       0x2e c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .comment       0x0000002d       0x2e c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .comment       0x0000002d       0x2e c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_errno.o)
+ .comment       0x0000002d       0x2e c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x0000002d       0x2e c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .comment       0x0000002d       0x2e c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_open.o)
+ .comment       0x0000002d       0x2e c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .comment       0x0000002d       0x2e c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .comment       0x0000002d       0x2e c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .comment       0x0000002d       0x2e c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_find_file.o)
+ .comment       0x0000002d       0x2e c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .comment       0x0000002d       0x2e c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-atexit.o)
+ .comment       0x0000002d       0x2e c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o)
+ .comment       0x0000002d       0x2e c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcmp.o)
+ .comment       0x0000002d       0x2e c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcpy.o)
+ .comment       0x0000002d       0x2e c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__atexit.o)
+ .comment       0x0000002d       0x2e c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__call_atexit.o)
+ .comment       0x0000002d       0x2e c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .comment       0x0000002d       0x2e c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x1e0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x00000028       0x20 obj/default/main.o
+ .debug_aranges
+                0x00000048       0x28 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+ .debug_aranges
+                0x00000070       0x20 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-strlen.o)
+ .debug_aranges
+                0x00000090       0x18 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-impure.o)
+ .debug_aranges
+                0x000000a8       0x20 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-fvwrite_small_dev.o)
+ .debug_aranges
+                0x000000c8       0x20 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o)
+ .debug_aranges
+                0x000000e8       0x18 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-int_errno.o)
+ .debug_aranges
+                0x00000100       0x20 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-atexit.o)
+ .debug_aranges
+                0x00000120       0x20 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o)
+ .debug_aranges
+                0x00000140       0x20 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcmp.o)
+ .debug_aranges
+                0x00000160       0x20 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcpy.o)
+ .debug_aranges
+                0x00000180       0x20 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__atexit.o)
+ .debug_aranges
+                0x000001a0       0x20 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__call_atexit.o)
+ .debug_aranges
+                0x000001c0       0x20 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x24b6
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000       0x3f c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x0000003f       0xcb obj/default/main.o
+ .debug_info    0x0000010a      0x5ec c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+ .debug_info    0x000006f6       0xd1 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-strlen.o)
+ .debug_info    0x000007c7      0x4eb c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-impure.o)
+ .debug_info    0x00000cb2      0x5c4 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-fvwrite_small_dev.o)
+ .debug_info    0x00001276      0x5a4 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o)
+ .debug_info    0x0000181a       0x85 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-int_errno.o)
+ .debug_info    0x0000189f      0x118 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-atexit.o)
+ .debug_info    0x000019b7      0x115 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o)
+ .debug_info    0x00001acc       0xf9 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcmp.o)
+ .debug_info    0x00001bc5      0x121 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcpy.o)
+ .debug_info    0x00001ce6      0x255 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__atexit.o)
+ .debug_info    0x00001f3b      0x234 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__call_atexit.o)
+ .debug_info    0x0000216f      0x347 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+
+.debug_abbrev   0x00000000      0xf17
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x1f c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x0000001f       0x72 obj/default/main.o
+ .debug_abbrev  0x00000091      0x1db c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+ .debug_abbrev  0x0000026c       0x8c c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-strlen.o)
+ .debug_abbrev  0x000002f8      0x142 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-impure.o)
+ .debug_abbrev  0x0000043a      0x1c9 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-fvwrite_small_dev.o)
+ .debug_abbrev  0x00000603      0x1ae c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o)
+ .debug_abbrev  0x000007b1       0x39 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-int_errno.o)
+ .debug_abbrev  0x000007ea       0xc1 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-atexit.o)
+ .debug_abbrev  0x000008ab       0xde c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o)
+ .debug_abbrev  0x00000989       0xa1 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcmp.o)
+ .debug_abbrev  0x00000a2a       0xc1 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcpy.o)
+ .debug_abbrev  0x00000aeb      0x1a7 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__atexit.o)
+ .debug_abbrev  0x00000c92      0x179 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__call_atexit.o)
+ .debug_abbrev  0x00000e0b      0x10c c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+
+.debug_line     0x00000000      0xbd1
+ *(.debug_line)
+ .debug_line    0x00000000       0x66 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x00000066       0x83 obj/default/main.o
+ .debug_line    0x000000e9       0xc2 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+ .debug_line    0x000001ab       0x7c c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-strlen.o)
+ .debug_line    0x00000227       0x4c c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-impure.o)
+ .debug_line    0x00000273       0xd7 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-fvwrite_small_dev.o)
+ .debug_line    0x0000034a       0xae c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o)
+ .debug_line    0x000003f8       0x3a c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-int_errno.o)
+ .debug_line    0x00000432       0x65 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-atexit.o)
+ .debug_line    0x00000497       0x80 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o)
+ .debug_line    0x00000517       0x8f c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcmp.o)
+ .debug_line    0x000005a6       0x8c c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcpy.o)
+ .debug_line    0x00000632      0x163 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__atexit.o)
+ .debug_line    0x00000795      0x159 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__call_atexit.o)
+ .debug_line    0x000008ee      0x2e3 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+
+.debug_frame    0x00000000      0x270
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x2c obj/default/main.o
+ .debug_frame   0x0000002c       0x48 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+ .debug_frame   0x00000074       0x20 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-strlen.o)
+ .debug_frame   0x00000094       0x3c c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-fvwrite_small_dev.o)
+ .debug_frame   0x000000d0       0x30 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o)
+ .debug_frame   0x00000100       0x20 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-atexit.o)
+ .debug_frame   0x00000120       0x28 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o)
+ .debug_frame   0x00000148       0x20 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcmp.o)
+ .debug_frame   0x00000168       0x20 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcpy.o)
+ .debug_frame   0x00000188       0x44 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__atexit.o)
+ .debug_frame   0x000001cc       0x54 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__call_atexit.o)
+ .debug_frame   0x00000220       0x50 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+
+.debug_str      0x00000000      0x68b
+ *(.debug_str)
+ .debug_str     0x00000000       0x87 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp//obj/HAL/src/crt0.o
+ .debug_str     0x00000087       0xcf obj/default/main.o
+                                0x113 (size before relaxing)
+ .debug_str     0x00000156      0x304 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+                                0x3b3 (size before relaxing)
+ .debug_str     0x0000045a      0x304 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-strlen.o)
+                                0x114 (size before relaxing)
+ .debug_str     0x0000045a        0xd c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-impure.o)
+                                0x390 (size before relaxing)
+ .debug_str     0x00000467       0x25 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-fvwrite_small_dev.o)
+                                0x3bd (size before relaxing)
+ .debug_str     0x0000048c       0x25 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o)
+                                0x39c (size before relaxing)
+ .debug_str     0x0000048c      0x106 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-int_errno.o)
+ .debug_str     0x0000048c       0x44 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-atexit.o)
+                                0x14b (size before relaxing)
+ .debug_str     0x000004d0       0x31 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o)
+                                0x136 (size before relaxing)
+ .debug_str     0x00000501        0x7 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcmp.o)
+                                0x10e (size before relaxing)
+ .debug_str     0x00000508       0x1b c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcpy.o)
+                                0x122 (size before relaxing)
+ .debug_str     0x00000523       0x6a c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__atexit.o)
+                                0x1e3 (size before relaxing)
+ .debug_str     0x0000058d       0x27 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__call_atexit.o)
+                                0x1b0 (size before relaxing)
+ .debug_str     0x000005b4       0xd7 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+                                0x122 (size before relaxing)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x00000000       0x40
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x00000000       0x10 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp//obj/HAL/src/crt0.o
+ .debug_alt_sim_info
+                0x00000010       0x30 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                0x000088b8                        __alt_data_end = 0x88b8
+                0x000088b8                        PROVIDE (__alt_stack_pointer = __alt_data_end)
+                [!provide]                        PROVIDE (__alt_stack_limit = __alt_stack_base)
+                [!provide]                        PROVIDE (__alt_heap_start = end)
+                [!provide]                        PROVIDE (__alt_heap_limit = 0x88b8)
+OUTPUT(HelloWorld_nios.elf elf32-littlenios2)
+LOAD linker stubs
+
+.debug_ranges   0x00000000       0x20
+ .debug_ranges  0x00000000       0x20 c:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/nios2/software/hal_bsp//obj/HAL/src/crt0.o
+
+.debug_line_str
+                0x00000000      0x783
+ .debug_line_str
+                0x00000000      0x132 obj/default/main.o
+                                0x1b3 (size before relaxing)
+ .debug_line_str
+                0x00000132      0x23a c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+                                0x2d3 (size before relaxing)
+ .debug_line_str
+                0x0000036c       0x69 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-strlen.o)
+                                0x259 (size before relaxing)
+ .debug_line_str
+                0x000003d5       0x67 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-impure.o)
+                                0x25a (size before relaxing)
+ .debug_line_str
+                0x0000043c       0x43 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-fvwrite_small_dev.o)
+                                0x2e7 (size before relaxing)
+ .debug_line_str
+                0x0000047f       0x38 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o)
+                                0x2cf (size before relaxing)
+ .debug_line_str
+                0x000004b7       0x3b c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-int_errno.o)
+                                0x186 (size before relaxing)
+ .debug_line_str
+                0x000004f2       0x7b c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-atexit.o)
+                                0x1ec (size before relaxing)
+ .debug_line_str
+                0x0000056d       0x37 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o)
+                                0x256 (size before relaxing)
+ .debug_line_str
+                0x000005a4       0x39 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcmp.o)
+                                0x259 (size before relaxing)
+ .debug_line_str
+                0x000005dd       0x39 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcpy.o)
+                                0x259 (size before relaxing)
+ .debug_line_str
+                0x00000616       0x3b c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__atexit.o)
+                                0x2cf (size before relaxing)
+ .debug_line_str
+                0x00000651       0x40 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__call_atexit.o)
+                                0x1fb (size before relaxing)
+ .debug_line_str
+                0x00000691       0xf2 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+                                0x187 (size before relaxing)
+
+.debug_loclists
+                0x00000000      0x928
+ .debug_loclists
+                0x00000000       0x73 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+ .debug_loclists
+                0x00000073       0x32 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-strlen.o)
+ .debug_loclists
+                0x000000a5       0xc5 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-fvwrite_small_dev.o)
+ .debug_loclists
+                0x0000016a       0x88 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o)
+ .debug_loclists
+                0x000001f2       0x2a c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-atexit.o)
+ .debug_loclists
+                0x0000021c       0x20 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o)
+ .debug_loclists
+                0x0000023c       0x8c c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcmp.o)
+ .debug_loclists
+                0x000002c8       0xcc c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcpy.o)
+ .debug_loclists
+                0x00000394      0x128 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__atexit.o)
+ .debug_loclists
+                0x000004bc       0xf2 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__call_atexit.o)
+ .debug_loclists
+                0x000005ae      0x37a c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)
+
+.debug_rnglists
+                0x00000000      0x117
+ .debug_rnglists
+                0x00000000       0x1a c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-puts.o)
+ .debug_rnglists
+                0x0000001a       0x13 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-strlen.o)
+ .debug_rnglists
+                0x0000002d       0x14 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-fvwrite_small_dev.o)
+ .debug_rnglists
+                0x00000041       0x13 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-writer.o)
+ .debug_rnglists
+                0x00000054       0x13 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-atexit.o)
+ .debug_rnglists
+                0x00000067       0x13 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-exit.o)
+ .debug_rnglists
+                0x0000007a       0x13 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcmp.o)
+ .debug_rnglists
+                0x0000008d       0x13 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-memcpy.o)
+ .debug_rnglists
+                0x000000a0       0x14 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__atexit.o)
+ .debug_rnglists
+                0x000000b4       0x24 c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(libc_a-__call_atexit.o)
+ .debug_rnglists
+                0x000000d8       0x3f c:/intelfpga_lite/23.1std/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/12.3.1/mno-hw-mul\libgcc.a(lib2-divmod.o)

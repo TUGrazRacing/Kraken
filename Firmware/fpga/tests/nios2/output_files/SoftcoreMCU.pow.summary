@@ -1,0 +1,12 @@
+Power Analyzer Status : Successful - Sat Sep 20 09:52:36 2025
+Quartus Prime Version : 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+Revision Name : SoftcoreMCU
+Top-level Entity Name : SoftcoreMCU
+Family : MAX 10
+Device : 10M16SAU169C8G
+Power Models : Final
+Total Thermal Power Dissipation : 243.63 mW
+Core Dynamic Thermal Power Dissipation : 1.67 mW
+Core Static Thermal Power Dissipation : 226.44 mW
+I/O Thermal Power Dissipation : 15.52 mW
+Power Estimation Confidence : Low: user provided insufficient toggle rate data

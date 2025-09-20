@@ -1,0 +1,22 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst nios_uart.uart_0 -pg 1 -lvl 3 -y 220
+preplace inst nios_uart.nios2_gen2_0 -pg 1 -lvl 2 -y 290
+preplace inst nios_uart.onchip_memory2_0 -pg 1 -lvl 3 -y 140
+preplace inst nios_uart.reset_bridge_0 -pg 1 -lvl 1 -y 160
+preplace inst nios_uart.clock_bridge_0 -pg 1 -lvl 2 -y 40
+preplace inst nios_uart.nios2_gen2_0.reset_bridge -pg 1
+preplace inst nios_uart.nios2_gen2_0.cpu -pg 1
+preplace inst nios_uart.nios2_gen2_0.clock_bridge -pg 1
+preplace inst nios_uart.altpll_0 -pg 1 -lvl 3 -y 40
+preplace inst nios_uart -pg 1 -lvl 1 -y 40 -regy -20
+preplace netloc FAN_OUT<net_container>nios_uart</net_container>(MASTER)altpll_0.c0,(SLAVE)uart_0.clk,(SLAVE)onchip_memory2_0.clk1,(SLAVE)nios2_gen2_0.clk,(SLAVE)reset_bridge_0.clk) 1 0 4 200 150 370 150 750 30 1050
+preplace netloc POINT_TO_POINT<net_container>nios_uart</net_container>(SLAVE)altpll_0.inclk_interface,(MASTER)clock_bridge_0.out_clk) 1 2 1 NJ
+preplace netloc INTERCONNECT<net_container>nios_uart</net_container>(MASTER)nios2_gen2_0.data_master,(SLAVE)nios2_gen2_0.debug_mem_slave,(SLAVE)altpll_0.pll_slave,(SLAVE)onchip_memory2_0.s1,(SLAVE)uart_0.s1,(MASTER)nios2_gen2_0.instruction_master) 1 1 2 370 430 790
+preplace netloc EXPORT<net_container>nios_uart</net_container>(SLAVE)nios_uart.reset_bridge_0_in_reset,(SLAVE)reset_bridge_0.in_reset) 1 0 1 NJ
+preplace netloc EXPORT<net_container>nios_uart</net_container>(SLAVE)clock_bridge_0.in_clk,(SLAVE)nios_uart.clock_bridge_0_in_clk) 1 0 2 NJ 50 NJ
+preplace netloc POINT_TO_POINT<net_container>nios_uart</net_container>(SLAVE)uart_0.irq,(MASTER)nios2_gen2_0.irq) 1 2 1 810
+preplace netloc EXPORT<net_container>nios_uart</net_container>(SLAVE)nios_uart.uart_0_external_connection,(SLAVE)uart_0.external_connection) 1 0 3 NJ 250 NJ 250 NJ
+preplace netloc FAN_OUT<net_container>nios_uart</net_container>(SLAVE)onchip_memory2_0.reset1,(SLAVE)nios2_gen2_0.reset,(MASTER)reset_bridge_0.out_reset,(SLAVE)altpll_0.inclk_interface_reset,(SLAVE)uart_0.reset) 1 1 2 350 170 770
+levelinfo -pg 1 0 170 1090
+levelinfo -hier nios_uart 180 230 510 860 1070
