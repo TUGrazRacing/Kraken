@@ -46,9 +46,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_s_w_d_components_8vhd.html"
+"SWDComponents_8vhd.html"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronization';
-var SYNCOFFMSG = 'click to enable panel synchronization';
-var LISTOFALLMEMBERS = 'List of all members';
+var SYNCONMSG = 'click to disable panel synchronisation';
+var SYNCOFFMSG = 'click to enable panel synchronisation';
