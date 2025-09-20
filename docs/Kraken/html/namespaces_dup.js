@@ -1,4 +1,4 @@
 var namespaces_dup =
 [
-    [ "SWDComponents", "classSWDComponents.html", null ]
+    [ "SWDComponents", "class_s_w_d_components.html", null ]
 ];

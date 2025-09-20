@@ -25,7 +25,6 @@
 var NAVTREE =
 [
   [ "Kraken", "index.html", [
-    [ "Description", "md__2home_2runner_2work_2Kraken_2Kraken_2Firmware_2README.html", null ],
     [ "Packages", "namespaces.html", [
       [ "Package List", "namespaces.html", "namespaces_dup" ]
     ] ],
@@ -47,8 +46,9 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"SWDComponents_8vhd.html"
+"_s_w_d_components_8vhd.html"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
+var SYNCONMSG = 'click to disable panel synchronization';
+var SYNCOFFMSG = 'click to enable panel synchronization';
+var LISTOFALLMEMBERS = 'List of all members';

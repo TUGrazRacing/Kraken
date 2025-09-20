@@ -1,8 +1,21 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
+
+
+--! @brief Serial Wire Dubug components
+--! @details This package contains the necessary components to set up the SWDProtocolEngine for bidirectional multiplexing of the SWD protocol.
 package SWDComponents is
 
+    --! @brief Protocol engine state machine
+    --! @param clk System clock
+    --! @param reset System reset
+    --! @param data_in_r Data sampled on the rising edge
+    --! @param data_in_f Data sampled on the falling edge
+    --! @param direction Direction control signal
+    --! @param highz_hc Half cycle high impedance control signal
+    --! @param highz_thc Three half cycle high impedance control signal
+    --! @param highz Direct high impedance control signal
     component SWDStateMachine is
         port(
             clk : in std_logic;
@@ -16,6 +29,12 @@ package SWDComponents is
         );
     end component;
 
+    --! @brief Demultiplexer on debugger side
+    --! @param pin External pin
+    --! @param toDevice Internal signal going to the device
+    --! @param toDebugger Internal signal going to the debugger
+    --! @param highz High impedance activation input signal
+    --! @param direction Direction control input signal
     component SWDDbgMux is
         port(
             pin : inout std_logic;
@@ -26,6 +45,17 @@ package SWDComponents is
         );
     end component;
 
+    --! @brief Multiplexer on device side
+    --! @param sel Device selection address
+    --! @param toDebugger Internal signal going to the debugger
+    --! @param toDevice Internal signal going to the device
+    --! @param direction Direction control input signal
+    --! @param highz High impedance activation input signal
+    --! @param clk_in SWD clock signal input
+    --! @param reset_in SWD reset signal input
+    --! @param pin SWD data signal vector
+    --! @param clk_out SWD clock signal output vector
+    --! @param reset_out SWD reset signal output vector
     component SWDDvcMux is
         generic(
             port_count : integer := 1;
@@ -44,6 +74,10 @@ package SWDComponents is
         );
     end component;
 
+    --! @brief Samples the data line on the rising edge and buffers it
+    --! @param clk SWD clock input
+    --! @param data_in SWD data input line
+    --! @param data_out Buffered output
     component SWDLineReader is
         port(
             clk : in std_logic;
@@ -52,6 +86,10 @@ package SWDComponents is
         );
     end component;
 
+    --! @brief Generates an output signal of half a clock cycle starting from the next rising edge
+    --! @param clk Input reference clock
+    --! @param trigger Trigger signal
+    --! @param out_signal Output signal
     component SWDHcH is
         port (
             clk         : in  std_logic;
@@ -60,6 +98,10 @@ package SWDComponents is
         );
     end component;
 
+    --! @brief Generates an output signal of three half clock cycles starting from the next rising edge
+    --! @param clk Input reference clock
+    --! @param trigger Trigger signal
+    --! @param out_signal Output signal 
     component SWDThcH is
         port (
             clk         : in  std_logic;
@@ -68,6 +110,14 @@ package SWDComponents is
         );
     end component;
 
+    --! @brief SWD protocol engine responsible for correct bus driver switches
+    --! @param clk SWD clock input
+    --! @param reset SWD reset input
+    --! @param DbgToDvc Internal signal going from debugger to device
+    --! @param DvcToDbg Internal signal going from device to debugger
+    --! @param highz High impedance activation signal output
+    --! @param direction_dbg_mux Direction control signal for the debugger multiplexer
+    --! @param direction_dvc_mux Direction control signal for the device multiplexer
     component SWDProtocolEngine is
         port(
             clk : in std_logic;
