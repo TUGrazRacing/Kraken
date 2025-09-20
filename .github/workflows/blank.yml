@@ -28,7 +28,8 @@ jobs:
       - name: Build documentation
         uses: mattnotmitt/doxygen-action@v1
         with:
-          doxyfile-path: '${{ github.workspace }}/docs/Kraken/Doxyfile'
+          working-directory: docs/Kraken
+          doxyfile-path: Doxyfile
 
       - name: Commit and push docs
         run: |
