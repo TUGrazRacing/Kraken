@@ -1,0 +1,70 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+
+
+entity Multiplexer_test is
+port(
+);
+end entity;
+
+
+
+
+procedure swd_write_bit(signal swclk : in std_logic;
+                        signal swdio : out std_logic;
+                        bitval        : in std_logic) is
+begin
+  wait until falling_edge(swclk);
+  swdio <= bitval;
+end procedure;
+
+-- Write a vector (LSB first) onto SWD
+procedure swd_write_vector(signal swclk : out std_logic;
+                           signal swdio : out std_logic;
+                           data         : in std_logic_vector) is
+begin
+  for i in 0 to data'length-1 loop
+    swd_write_bit(swclk, swdio, data(i));
+  end loop;
+end procedure;
+
+-- Example: send SWD request packet (8 bits) and a 32-bit data word
+procedure swd_send_request(signal swclk : out std_logic;
+                           signal swdio : out std_logic;
+                           req          : in std_logic_vector(7 downto 0);
+                           dataword     : in std_logic_vector(31 downto 0)) is
+begin
+  -- request phase (LSB first)
+  swd_write_vector(swclk, swdio, req);
+
+  -- turnaround: debugger releases line
+  wait until falling_edge(swclk);
+  swdio <= 'Z';
+  for i in 0 to 2 loop
+    wait until falling_edge(swclk);
+  end loop;
+  
+  -- data phase (LSB first)
+  swd_write_vector(swclk, swdio, dataword);
+
+  -- parity bit (even parity on data)
+  swd_write_bit(swclk, swdio, std_logic(to_integer(unsigned(dataword)) mod 2));
+  wait until falling_edge(swclk);
+  swdio <= '0';
+end procedure;
+
+
+
+architecture behaviour of Multiplexer_test is
+signal clk : std_logic := '0';
+begin
+clk <= not clk after 100 ns;
+
+
+
+
+
+
+
+end behaviour;

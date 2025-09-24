@@ -1,12 +1,12 @@
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.math_real.all;
-
+use ieee.numeric_std.all;
 
 
 entity SWDDvcMux is
     generic(
-        port_count : integer := 1;
+        port_count : integer := 1
     );
     port(
         sel : in std_logic_vector(integer(ceil(log2(real(port_count))))-1 downto 0); -- generate the correct number of select lines. Should be synthesizable!

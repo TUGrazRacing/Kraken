@@ -20,45 +20,33 @@ end entity;
 
 architecture behaviour of SWDProtocolEngine is
 
-signal hchighz, thchighz, fchighz : std_logic := '0';
+signal highz_sig : std_logic := '0';
 signal t_hchighz, t_thchighz, t_fchighz : std_logic := '0';
-signal data_out_r : std_logic := '0';
+signal data_out_f : std_logic := '0';
+signal direction : std_logic := '0';
+
 
 begin
-    halfCycleHighZ : SWDHcH
-    port map(
-        clk       => clk,
-        out_signal => hchighz,
-        trigger    => t_hchighz
-    );
+    
 
-    treeHalfCycleHighZ : SWDThcH
-    port map(
-        clk        => clk,
-        out_signal => thchighz,
-        trigger    => t_thchighz
-    );
-
-    risingEdgeSampler : SWDLineReader
+    fallingEdgeSampler : SWDLineReader
     port map(
         clk      => clk,
-        data_in  => DbgToDvc,
-        data_out => data_out_r
+        data_in  => DvcToDbg,
+        data_out => data_out_f
     );
 
     StateMachine : SWDStateMachine
     port map(
         clk       => clk,
         reset     => reset,
-        data_in_r => data_out_r,
-        data_in_f => DvcToDbg,
+        data_in_r => DbgToDvc,
+        data_in_f => data_out_f,
         direction => direction,
-        highz_hc  => t_hchighz,
-        highz_thc => t_thchighz,
-        highz     => t_fchighz
+        highz     => highz_sig
     );
 
     direction_dbg_mux <= direction;
     direction_dvc_mux <= not direction;
-    highz <= hchighz or thchighz or fchighz;
+    highz <= highz_sig;
 end behaviour;

@@ -1,6 +1,6 @@
 library ieee;
 use ieee.std_logic_1164.all;
-
+use ieee.math_real.all;
 
 
 --! @brief Serial Wire Dubug components
@@ -23,8 +23,6 @@ package SWDComponents is
             data_in_r : in std_logic; -- data sampled on the rising edge
             data_in_f : in std_logic; -- data sampled on the falling edge
             direction : out std_logic; -- 0 = debugger to device; 1 = device to debugger
-            highz_hc : out std_logic; -- control signal for the highz controller for a half cycle
-            highz_thc : out std_logic; -- control signal for the highz controller for three half cycles
             highz : out std_logic -- direct control signal for highz
         );
     end component;
@@ -58,7 +56,7 @@ package SWDComponents is
     --! @param reset_out SWD reset signal output vector
     component SWDDvcMux is
         generic(
-            port_count : integer := 1;
+            port_count : integer := 1
         );
         port(
             sel : in std_logic_vector(integer(ceil(log2(real(port_count))))-1 downto 0); -- generate the correct number of select lines. Should be synthesizable!

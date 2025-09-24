@@ -16,7 +16,7 @@ architecture behaviour of SWDLineReader is
 begin
     process(clk)
     begin
-        if(clk'event and clk='1') then
+        if(clk'event and clk='0') then
             data_out <= data_in;
         end if;
     end process;

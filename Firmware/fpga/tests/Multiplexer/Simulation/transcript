@@ -1,0 +1,408 @@
+# Compile of Multiplexer_test.vhd was successful.
+# Compile of SWDThcH.vhd was successful.
+# Compile of SWDComponents.vhd was successful.
+# Compile of SWDDbgMux.vhd was successful.
+# Compile of SWDDvcMux.vhd was successful.
+# Compile of SWDHcH.vhd was successful.
+# Compile of SWDLineReader.vhd was successful.
+# Compile of SWDProtocolEngine.vhd was successful.
+# Compile of SWDRst.vhd was successful.
+# Compile of SWDStateMachine.vhd was successful.
+# 10 compiles, 0 failed with no errors.
+vsim -gui work.multiplexer_test
+# vsim -gui work.multiplexer_test 
+# Start time: 21:29:20 on Sep 24,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading work.swdcomponents
+# Loading ieee.numeric_std(body)
+# Loading work.multiplexer_test(behaviour)
+# Loading work.swdprotocolengine(behaviour)
+# Loading work.swdlinereader(behaviour)
+# Loading work.swdstatemachine(behaviour)
+add wave -position end  sim:/multiplexer_test/clk
+add wave -position end  sim:/multiplexer_test/tb/StateMachine/state
+add wave -position end  sim:/multiplexer_test/DbgToDvc
+add wave -position end  sim:/multiplexer_test/DvcToDbg
+add wave -position end  sim:/multiplexer_test/direction_dbg_mux
+add wave -position end  sim:/multiplexer_test/highz
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Multiplexer_test.vhd was successful.
+# Compile of SWDThcH.vhd was successful.
+# Compile of SWDComponents.vhd was successful.
+# Compile of SWDDbgMux.vhd was successful.
+# Compile of SWDDvcMux.vhd was successful.
+# Compile of SWDHcH.vhd was successful.
+# Compile of SWDLineReader.vhd was successful.
+# Compile of SWDProtocolEngine.vhd was successful.
+# Compile of SWDRst.vhd was successful.
+# Compile of SWDStateMachine.vhd was successful.
+# 10 compiles, 0 failed with no errors.
+restart
+# Loading work.swdcomponents
+# Loading work.multiplexer_test(behaviour)
+# Loading work.swdprotocolengine(behaviour)
+# Loading work.swdlinereader(behaviour)
+# Loading work.swdstatemachine(behaviour)
+run
+# GetModuleFileName: Das angegebene Modul wurde nicht gefunden.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Multiplexer_test.vhd was successful.
+# Compile of SWDThcH.vhd was successful.
+# Compile of SWDComponents.vhd was successful.
+# Compile of SWDDbgMux.vhd was successful.
+# Compile of SWDDvcMux.vhd was successful.
+# Compile of SWDHcH.vhd was successful.
+# Compile of SWDLineReader.vhd was successful.
+# Compile of SWDProtocolEngine.vhd was successful.
+# Compile of SWDRst.vhd was successful.
+# Compile of SWDStateMachine.vhd was successful.
+# 10 compiles, 0 failed with no errors.
+restart
+# Loading work.swdcomponents
+# Loading work.multiplexer_test(behaviour)
+# Loading work.swdprotocolengine(behaviour)
+# Loading work.swdlinereader(behaviour)
+# Loading work.swdstatemachine(behaviour)
+run
+# GetModuleFileName: Das angegebene Modul wurde nicht gefunden.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 21:36:32 on Sep 24,2025, Elapsed time: 0:07:12
+# Errors: 0, Warnings: 0

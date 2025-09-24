@@ -18,13 +18,13 @@ begin
     -- Rising edge process: detect trigger rising edge and start pulse
     process(clk)
     begin
-        if rising_edge(clk) then
+        if falling_edge(clk) then
             if (trigger = '1' and trigger_prev = '0') then
                 pulse_rise <= '1';
             end if;
 
             if (pulse_fall='1') then 
-	            pulse_rise='0';
+	            pulse_rise <= '0';
             end if;
 
             trigger_prev <= trigger;
@@ -34,7 +34,7 @@ begin
     -- Falling edge process: used for ending the half-cycle or full-cycle pulse
     process(clk)
     begin
-        if falling_edge(clk) then
+        if rising_edge(clk) then
             if (pulse_rise = '1') then
                 pulse_fall <= '1';
             else

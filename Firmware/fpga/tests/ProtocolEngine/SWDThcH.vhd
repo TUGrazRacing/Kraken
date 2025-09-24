@@ -1,7 +1,7 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity SWDTchH is
+entity SWDThcH is
     port (
         clk        : in  std_logic;
         trigger    : in  std_logic;
@@ -9,7 +9,7 @@ entity SWDTchH is
     );
 end entity;
 
-architecture rtl of SWDTchH is
+architecture rtl of SWDThcH is
     signal trigger_prev : std_logic := '0';
 
     signal half_cycle_1 : std_logic := '0';
