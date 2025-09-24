@@ -7,6 +7,7 @@ var classSWDDvcMux =
     [ "highz", "classSWDDvcMux.html#a9ea6ed102fcb2456d85eea22bc630519", null ],
     [ "ieee", "classSWDDvcMux.html#a0a6af6eef40212dbaf130d57ce711256", null ],
     [ "math_real", "classSWDDvcMux.html#acb415f2e3abd505b8338da5b5bf9e2fb", null ],
+    [ "numeric_std", "classSWDDvcMux.html#a2edc34402b573437d5f25fa90ba4013e", null ],
     [ "pin", "classSWDDvcMux.html#a6e35a9908e8b07d1109089dbb839603c", null ],
     [ "port_count", "classSWDDvcMux.html#ad4463a694a1659c69ea94ee5bf12d1f5", null ],
     [ "reset_in", "classSWDDvcMux.html#a066659026bab75afd3f69da914d8c584", null ],

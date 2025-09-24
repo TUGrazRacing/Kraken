@@ -8,5 +8,5 @@ var searchData=
   ['swdprotocolengine_5',['SWDProtocolEngine',['../classSWDProtocolEngine.html',1,'']]],
   ['swdrst_6',['SWDRst',['../classSWDRst.html',1,'']]],
   ['swdstatemachine_7',['SWDStateMachine',['../classSWDStateMachine.html',1,'']]],
-  ['swdtchh_8',['SWDTchH',['../classSWDTchH.html',1,'']]]
+  ['swdthch_8',['SWDThcH',['../classSWDThcH.html',1,'']]]
 ];

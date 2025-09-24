@@ -5,6 +5,6 @@ var searchData=
   ['reset_5fout_2',['reset_out',['../classSWDDvcMux.html#a86ea6a8514dd8a16d8862e0deb26bcd3',1,'SWDDvcMux']]],
   ['rnw_3',['RnW',['../classSWDStateMachine_1_1behaviour.html#ab1934d573136f5180e75121818c0c8c5',1,'SWDStateMachine::behaviour']]],
   ['rst_4',['rst',['../classSWDRst.html#a352387ac1c11448edf5830e9b3408485',1,'SWDRst']]],
-  ['rtl_5',['rtl',['../classSWDHcH_1_1rtl.html',1,'SWDHcH.rtl'],['../classSWDTchH_1_1rtl.html',1,'SWDTchH.rtl']]],
+  ['rtl_5',['rtl',['../classSWDHcH_1_1rtl.html',1,'SWDHcH.rtl'],['../classSWDThcH_1_1rtl.html',1,'SWDThcH.rtl']]],
   ['rw_5fcounter_6',['rw_counter',['../classSWDStateMachine_1_1behaviour.html#a110ec67b2d092f03d0015a7fc6608528',1,'SWDStateMachine::behaviour']]]
 ];
