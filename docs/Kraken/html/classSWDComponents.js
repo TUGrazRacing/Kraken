@@ -1,6 +1,7 @@
 var classSWDComponents =
 [
     [ "ieee", "classSWDComponents.html#a0a6af6eef40212dbaf130d57ce711256", null ],
+    [ "math_real", "classSWDComponents.html#acb415f2e3abd505b8338da5b5bf9e2fb", null ],
     [ "std_logic_1164", "classSWDComponents.html#acd03516902501cd1c7296a98e22c6fcb", null ],
     [ "SWDDbgMux", "classSWDComponents.html#a09e611f7cd0c93e15b9a35040a459b11", null ],
     [ "SWDDvcMux", "classSWDComponents.html#a5795dea5f914f218e39640989085e039", null ],

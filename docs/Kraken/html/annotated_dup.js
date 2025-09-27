@@ -7,5 +7,5 @@ var annotated_dup =
     [ "SWDProtocolEngine", "classSWDProtocolEngine.html", "classSWDProtocolEngine" ],
     [ "SWDRst", "classSWDRst.html", "classSWDRst" ],
     [ "SWDStateMachine", "classSWDStateMachine.html", "classSWDStateMachine" ],
-    [ "SWDTchH", "classSWDTchH.html", "classSWDTchH" ]
+    [ "SWDThcH", "classSWDThcH.html", "classSWDThcH" ]
 ];

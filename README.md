@@ -7,13 +7,19 @@ The Kraken is a project aimed to reduce debugging time. It allows an external J-
 
 ## Roadmap
 ### FPGA
-- [ ] Test nios II softcore microcontroller
-- [ ] Simulate custom bidirectional controller
+- [x] Test nios II softcore microcontroller
+- [ ] Build custom bidirectional protocol multiplexer
+  - [x] Write VHDL design for individual building blocks 
+  - [ ] Build testbench for SWD protocol with custom test/error cases for verification
+  - [ ] Verify multiplexer design in all test and error cases
 - [ ] Test bidirectional controller on hardware 
 - [ ] Simulate CTU CAN FD controller
-- [ ] Test CTU CAN FD controller with custom nios II platform
-- [ ] Create final platform with UFM etc.
-- [ ] Integrate all the systems and test on hardware
+- [ ] Test CTU CAN FD controller integration into nios II framework with Avalon interface
+- [ ] Create final design
+  - [ ] Init nios II soft core
+  - [ ] Integrate UFM
+  - [ ] Integrate CTU CAN FD controller
+  - [ ] Integrate multiplexer
 
 ### Nios II firmware
 Wait for the fpga to be finished and tested.

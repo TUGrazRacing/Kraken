@@ -98,6 +98,7 @@ $(function(){initNavTree('classSWDStateMachine_1_1behaviour.html',''); initResiz
 
 <div class="header">
   <div class="summary">
+<a href="#Procedures">Procedures</a> &#124;
 <a href="#Processes">Processes</a> &#124;
 <a href="#Signals">Signals</a> &#124;
 <a href="#Types">Types</a>  </div>
@@ -108,31 +109,112 @@ $(function(){initNavTree('classSWDStateMachine_1_1behaviour.html',''); initResiz
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="Processes" name="Processes"></a>
 Processes</h2></td></tr>
- <tr class="memitem:a00d9e7e8c17b5cd71bc4c4b432911468" id="r_a00d9e7e8c17b5cd71bc4c4b432911468"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a00d9e7e8c17b5cd71bc4c4b432911468">PROCESS_3</a>&#160;</td><td class="memItemRight" valign="bottom"><b> ( <b><b><a class="el" href="classSWDStateMachine.html#a50da91b765765ac486df1b41692e962f">clk</a></b> <span class="vhdlchar"> </span></b> )</b></td></tr>
+ <tr class="memitem:af31351337dd558ae650ff865475dd41f" id="r_af31351337dd558ae650ff865475dd41f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#af31351337dd558ae650ff865475dd41f">PROCESS_5</a>&#160;</td><td class="memItemRight" valign="bottom"><b> ( <b><b><a class="el" href="classSWDStateMachine.html#a50da91b765765ac486df1b41692e962f">clk</a></b> <span class="vhdlchar"> </span></b> )</b></td></tr>
+<tr class="memitem:aae038a3ecdc8e66ed9c382db9a7706fd" id="r_aae038a3ecdc8e66ed9c382db9a7706fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aae038a3ecdc8e66ed9c382db9a7706fd">PROCESS_6</a>&#160;</td><td class="memItemRight" valign="bottom"><b> ( <b><b><a class="el" href="classSWDStateMachine.html#a50da91b765765ac486df1b41692e962f">clk</a></b> <span class="vhdlchar"> </span></b> )</b></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="Procedures" name="Procedures"></a>
+Procedures</h2></td></tr>
+ <tr class="memitem:a7ea656d0b044a9177d8beedb76e4cdd2" id="r_a7ea656d0b044a9177d8beedb76e4cdd2"><td class="memItemLeft" align="right" valign="top"><b><b><span class="vhdlchar"> </span></b></b>&#160;</td><td class="memItemRight" valign="bottom"> <a class="el" href="#a7ea656d0b044a9177d8beedb76e4cdd2">start_trn</a>( <br />
+<b><span class="keywordflow">signal </span><span class="vhdlchar">state: </span><span class="stringliteral"></span> <b><span class="keywordflow">out</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><b><a class="el" href="#a03b262afe2f224498168e1ba5c8e0e72">States_t</a></b> <span class="vhdlchar"> </span></b></b><br />
+  <b><span class="keywordflow">signal </span><span class="vhdlchar">state_after_trn: </span><span class="stringliteral"></span> <b><span class="keywordflow">out</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><b><a class="el" href="#a03b262afe2f224498168e1ba5c8e0e72">States_t</a></b> <span class="vhdlchar"> </span></b></b><br />
+  <b><span class="keywordflow">constant </span><span class="vhdlchar">after_trn: </span><span class="stringliteral"></span> <b><span class="keywordflow">in</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><b><a class="el" href="#a03b262afe2f224498168e1ba5c8e0e72">States_t</a></b> <span class="vhdlchar"> </span></b></b><br />
+  <b><span class="keywordflow">signal </span><span class="vhdlchar">highz: </span><span class="stringliteral"></span> <b><span class="keywordflow">out</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="keywordtype">std_logic</span><span class="vhdlchar"> </span></b></b><br />
+  <b><span class="keywordflow">signal </span><span class="vhdlchar">direction_sig: </span><span class="stringliteral"></span> <b><span class="keywordflow">inout</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="keywordtype">std_logic</span><span class="vhdlchar"> </span></b></b><br />
+  <b><span class="keywordflow">signal </span><span class="vhdlchar">trn_counter: </span><span class="stringliteral"></span> <b><span class="keywordflow">out</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="keywordtype">integer</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="keywordflow">range</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="keywordflow">to</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">3</span> <span class="vhdlchar"> </span></b></b><br />
+   )</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="Types" name="Types"></a>
 Types</h2></td></tr>
- <tr class="memitem:afbce8dd2b06a844f304510226d360ea5" id="r_afbce8dd2b06a844f304510226d360ea5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#afbce8dd2b06a844f304510226d360ea5">States_t</a> &#160;</td><td class="memItemRight" valign="bottom"><b><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar">IDLE</span><span class="vhdlchar"> </span><span class="vhdlchar">,</span><span class="vhdlchar"> </span><span class="vhdlchar">RW</span><span class="vhdlchar"> </span><span class="vhdlchar">,</span><span class="vhdlchar"> </span><span class="vhdlchar">ACK</span><span class="vhdlchar"> </span><span class="vhdlchar">,</span><span class="vhdlchar"> </span><span class="vhdlchar">RX</span><span class="vhdlchar"> </span><span class="vhdlchar">,</span><span class="vhdlchar"> </span><span class="vhdlchar">TX</span><span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span></b></td></tr>
+ <tr class="memitem:a03b262afe2f224498168e1ba5c8e0e72" id="r_a03b262afe2f224498168e1ba5c8e0e72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a03b262afe2f224498168e1ba5c8e0e72">States_t</a> &#160;</td><td class="memItemRight" valign="bottom"><b><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar">IDLE</span><span class="vhdlchar"> </span><span class="vhdlchar">,</span><span class="vhdlchar"> </span><span class="vhdlchar">RW</span><span class="vhdlchar"> </span><span class="vhdlchar">,</span><span class="vhdlchar"> </span><span class="vhdlchar">ACK</span><span class="vhdlchar"> </span><span class="vhdlchar">,</span><span class="vhdlchar"> </span><span class="vhdlchar">RX</span><span class="vhdlchar"> </span><span class="vhdlchar">,</span><span class="vhdlchar"> </span><span class="vhdlchar">TX</span><span class="vhdlchar"> </span><span class="vhdlchar">,</span><span class="vhdlchar"> </span><span class="vhdlchar">TRN</span><span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span></b></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="Signals" name="Signals"></a>
 Signals</h2></td></tr>
- <tr class="memitem:a736bc895bfaf729452e8468d17e2167e" id="r_a736bc895bfaf729452e8468d17e2167e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a736bc895bfaf729452e8468d17e2167e">state</a> &#160;</td><td class="memItemRight" valign="bottom"><b><b><a class="el" href="#afbce8dd2b06a844f304510226d360ea5">States_t</a></b> <span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">IDLE</span><span class="vhdlchar"> </span></b></td></tr>
+ <tr class="memitem:a736bc895bfaf729452e8468d17e2167e" id="r_a736bc895bfaf729452e8468d17e2167e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a736bc895bfaf729452e8468d17e2167e">state</a> &#160;</td><td class="memItemRight" valign="bottom"><b><b><a class="el" href="#a03b262afe2f224498168e1ba5c8e0e72">States_t</a></b> <span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">IDLE</span><span class="vhdlchar"> </span></b></td></tr>
+<tr class="memitem:aef502a5c9494d29f1e5972918da8ac42" id="r_aef502a5c9494d29f1e5972918da8ac42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aef502a5c9494d29f1e5972918da8ac42">state_after_trn</a> &#160;</td><td class="memItemRight" valign="bottom"><b><b><a class="el" href="#a03b262afe2f224498168e1ba5c8e0e72">States_t</a></b> <span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">IDLE</span><span class="vhdlchar"> </span></b></td></tr>
 <tr class="memitem:a110ec67b2d092f03d0015a7fc6608528" id="r_a110ec67b2d092f03d0015a7fc6608528"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a110ec67b2d092f03d0015a7fc6608528">rw_counter</a> &#160;</td><td class="memItemRight" valign="bottom"><b><span class="keywordtype">integer</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="keywordflow">range</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="keywordflow">to</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">8</span> <span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span></b></td></tr>
 <tr class="memitem:ab1934d573136f5180e75121818c0c8c5" id="r_ab1934d573136f5180e75121818c0c8c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ab1934d573136f5180e75121818c0c8c5">RnW</a> &#160;</td><td class="memItemRight" valign="bottom"><b><span class="keywordtype">std_logic</span><span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span></b></td></tr>
 <tr class="memitem:a614d4c82245698c82e417bdf9cc02c8b" id="r_a614d4c82245698c82e417bdf9cc02c8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a614d4c82245698c82e417bdf9cc02c8b">ack_counter</a> &#160;</td><td class="memItemRight" valign="bottom"><b><span class="keywordtype">integer</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="keywordflow">range</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="keywordflow">to</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">2</span> <span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span></b></td></tr>
 <tr class="memitem:a1c704938f80d777456dd5c96c88154db" id="r_a1c704938f80d777456dd5c96c88154db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a1c704938f80d777456dd5c96c88154db">data_counter</a> &#160;</td><td class="memItemRight" valign="bottom"><b><span class="keywordtype">integer</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="keywordflow">range</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="keywordflow">to</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">33</span> <span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span></b></td></tr>
+<tr class="memitem:a25ddf17f584ad0c031195d6b3ef41ec7" id="r_a25ddf17f584ad0c031195d6b3ef41ec7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a25ddf17f584ad0c031195d6b3ef41ec7">trn_counter</a> &#160;</td><td class="memItemRight" valign="bottom"><b><span class="keywordtype">integer</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="keywordflow">range</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="keywordflow">to</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">3</span> <span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span></b></td></tr>
+<tr class="memitem:a3bd734c39b341f0ad3c70f0ae7e7789b" id="r_a3bd734c39b341f0ad3c70f0ae7e7789b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a3bd734c39b341f0ad3c70f0ae7e7789b">trn_period</a> &#160;</td><td class="memItemRight" valign="bottom"><b><span class="keywordtype">std_logic_vector</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">1</span> <span class="vhdlchar"> </span><span class="keywordflow">downto</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="keyword">&quot; 00 &quot;</span><span class="vhdlchar"> </span></b></td></tr>
+<tr class="memitem:a77b788da80de89577c6404f97434591e" id="r_a77b788da80de89577c6404f97434591e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a77b788da80de89577c6404f97434591e">direction_sig</a> &#160;</td><td class="memItemRight" valign="bottom"><b><span class="keywordtype">std_logic</span><span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span></b></td></tr>
+<tr class="memitem:a88876f5c397287b38b3d242fdfc016ca" id="r_a88876f5c397287b38b3d242fdfc016ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a88876f5c397287b38b3d242fdfc016ca">parity</a> &#160;</td><td class="memItemRight" valign="bottom"><b><span class="keywordtype">std_logic</span><span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span></b></td></tr>
+<tr class="memitem:a00e99fa590fb729d5dee07f988fc8f5d" id="r_a00e99fa590fb729d5dee07f988fc8f5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a00e99fa590fb729d5dee07f988fc8f5d">protocol_error</a> &#160;</td><td class="memItemRight" valign="bottom"><b><span class="keywordtype">std_logic</span><span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span></b></td></tr>
+<tr class="memitem:a40927a282be549b3841c5ef291247a9f" id="r_a40927a282be549b3841c5ef291247a9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a40927a282be549b3841c5ef291247a9f">addr</a> &#160;</td><td class="memItemRight" valign="bottom"><b><span class="keywordtype">std_logic_vector</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">1</span> <span class="vhdlchar"> </span><span class="keywordflow">downto</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="keyword">&quot; 00 &quot;</span><span class="vhdlchar"> </span></b></td></tr>
+<tr class="memitem:a8ab8830a6664422564f693b6555ea50a" id="r_a8ab8830a6664422564f693b6555ea50a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a8ab8830a6664422564f693b6555ea50a">isDP</a> &#160;</td><td class="memItemRight" valign="bottom"><b><span class="keywordtype">std_logic</span><span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span></b></td></tr>
+<tr class="memitem:a85f318a7a6e127bc667b3ef2c16dd917" id="r_a85f318a7a6e127bc667b3ef2c16dd917"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a85f318a7a6e127bc667b3ef2c16dd917">isSel</a> &#160;</td><td class="memItemRight" valign="bottom"><b><span class="keywordtype">std_logic</span><span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span></b></td></tr>
+<tr class="memitem:a22b53c24c9f36ada7de5b51245a00f0e" id="r_a22b53c24c9f36ada7de5b51245a00f0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a22b53c24c9f36ada7de5b51245a00f0e">isReg</a> &#160;</td><td class="memItemRight" valign="bottom"><b><span class="keywordtype">std_logic</span><span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span></b></td></tr>
+<tr class="memitem:ab839b370e0b5f5b0fb632b8ef23bf035" id="r_ab839b370e0b5f5b0fb632b8ef23bf035"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ab839b370e0b5f5b0fb632b8ef23bf035">sel_reg</a> &#160;</td><td class="memItemRight" valign="bottom"><b><span class="keywordtype">std_logic</span><span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span></b></td></tr>
+<tr class="memitem:aa7f88be38dd622bf64ffb9ab828754f2" id="r_aa7f88be38dd622bf64ffb9ab828754f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aa7f88be38dd622bf64ffb9ab828754f2">orundetect</a> &#160;</td><td class="memItemRight" valign="bottom"><b><span class="keywordtype">std_logic</span><span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span></b></td></tr>
 </table>
 <h2 class="groupheader">Member Function/Procedure/Process Documentation</h2>
-<a id="a00d9e7e8c17b5cd71bc4c4b432911468" name="a00d9e7e8c17b5cd71bc4c4b432911468"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a00d9e7e8c17b5cd71bc4c4b432911468">&#9670;&#160;</a></span>PROCESS_3()</h2>
+<a id="af31351337dd558ae650ff865475dd41f" name="af31351337dd558ae650ff865475dd41f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af31351337dd558ae650ff865475dd41f">&#9670;&#160;</a></span>PROCESS_5()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> <b><span class="vhdlchar"> </span></b> PROCESS_3</td>
+          <td class="memname"> <b><span class="vhdlchar"> </span></b> PROCESS_5</td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em><b><b><a class="el" href="classSWDStateMachine.html#a50da91b765765ac486df1b41692e962f">clk</a></b> <span class="vhdlchar"> </span></b> <em></em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aae038a3ecdc8e66ed9c382db9a7706fd" name="aae038a3ecdc8e66ed9c382db9a7706fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae038a3ecdc8e66ed9c382db9a7706fd">&#9670;&#160;</a></span>PROCESS_6()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <b><span class="vhdlchar"> </span></b> PROCESS_6</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em><b><b><a class="el" href="classSWDStateMachine.html#a50da91b765765ac486df1b41692e962f">clk</a></b> <span class="vhdlchar"> </span></b> <em></em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7ea656d0b044a9177d8beedb76e4cdd2" name="a7ea656d0b044a9177d8beedb76e4cdd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ea656d0b044a9177d8beedb76e4cdd2">&#9670;&#160;</a></span>start_trn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <b><span class="vhdlchar"> </span></b> start_trn</td>
+          <td>(</td>
+          <td class="paramtype"><span class="keywordtype">signal</span> </td>          <td class="paramname"><span class="paramname"><em><b><b><a class="el" href="#a736bc895bfaf729452e8468d17e2167e">state</a></b> <span class="vhdlchar"> </span></b><span class="stringliteral"></span> <em><b><span class="keywordflow">out</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><b><a class="el" href="#a03b262afe2f224498168e1ba5c8e0e72">States_t</a></b> <span class="vhdlchar"> </span><span class="vhdlchar"> </span></b></em> , </em></span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><span class="keywordtype">signal</span> </td>          <td class="paramname"><span class="paramname"><em><b><b><a class="el" href="#aef502a5c9494d29f1e5972918da8ac42">state_after_trn</a></b> <span class="vhdlchar"> </span></b><span class="stringliteral"></span> <em><b><span class="keywordflow">out</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><b><a class="el" href="#a03b262afe2f224498168e1ba5c8e0e72">States_t</a></b> <span class="vhdlchar"> </span><span class="vhdlchar"> </span></b></em> , </em></span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><span class="keywordtype">constant</span> </td>          <td class="paramname"><span class="paramname"><em><b><span class="vhdlchar">after_trn</span><span class="vhdlchar"> </span></b><span class="stringliteral"></span> <em><b><span class="keywordflow">in</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><b><a class="el" href="#a03b262afe2f224498168e1ba5c8e0e72">States_t</a></b> <span class="vhdlchar"> </span><span class="vhdlchar"> </span></b></em> , </em></span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><span class="keywordtype">signal</span> </td>          <td class="paramname"><span class="paramname"><em><b><b><a class="el" href="classSWDStateMachine.html#a91f441c12c9b6cf980636b8af94d6c2f">highz</a></b> <span class="vhdlchar"> </span></b><span class="stringliteral"></span> <em><b><span class="keywordflow">out</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="keywordtype">std_logic</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span></b></em> , </em></span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><span class="keywordtype">signal</span> </td>          <td class="paramname"><span class="paramname"><em><b><b><a class="el" href="#a77b788da80de89577c6404f97434591e">direction_sig</a></b> <span class="vhdlchar"> </span></b><span class="stringliteral"></span> <em><b><span class="keywordflow">inout</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="keywordtype">std_logic</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span></b></em> , </em></span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><span class="keywordtype">signal</span> </td>          <td class="paramname"><span class="paramname"><em><b><b><a class="el" href="#a25ddf17f584ad0c031195d6b3ef41ec7">trn_counter</a></b> <span class="vhdlchar"> </span></b><span class="stringliteral"></span> <em><b><span class="keywordflow">out</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="keywordtype">integer</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="keywordflow">range</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="keywordflow">to</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">3</span> <span class="vhdlchar"> </span></b></em></em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -154,6 +236,20 @@ Signals</h2></td></tr>
 
 </div>
 </div>
+<a id="a40927a282be549b3841c5ef291247a9f" name="a40927a282be549b3841c5ef291247a9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40927a282be549b3841c5ef291247a9f">&#9670;&#160;</a></span>addr</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a40927a282be549b3841c5ef291247a9f">addr</a> <b><span class="keywordtype">std_logic_vector</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">1</span> <span class="vhdlchar"> </span><span class="keywordflow">downto</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="keyword">&quot; 00 &quot;</span><span class="vhdlchar"> </span></b> </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1c704938f80d777456dd5c96c88154db" name="a1c704938f80d777456dd5c96c88154db"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1c704938f80d777456dd5c96c88154db">&#9670;&#160;</a></span>data_counter</h2>
 
@@ -162,6 +258,104 @@ Signals</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="#a1c704938f80d777456dd5c96c88154db">data_counter</a> <b><span class="keywordtype">integer</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="keywordflow">range</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="keywordflow">to</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">33</span> <span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span></b> </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a77b788da80de89577c6404f97434591e" name="a77b788da80de89577c6404f97434591e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77b788da80de89577c6404f97434591e">&#9670;&#160;</a></span>direction_sig</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a77b788da80de89577c6404f97434591e">direction_sig</a> <b><span class="keywordtype">std_logic</span><span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span></b> </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8ab8830a6664422564f693b6555ea50a" name="a8ab8830a6664422564f693b6555ea50a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ab8830a6664422564f693b6555ea50a">&#9670;&#160;</a></span>isDP</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a8ab8830a6664422564f693b6555ea50a">isDP</a> <b><span class="keywordtype">std_logic</span><span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span></b> </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a22b53c24c9f36ada7de5b51245a00f0e" name="a22b53c24c9f36ada7de5b51245a00f0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22b53c24c9f36ada7de5b51245a00f0e">&#9670;&#160;</a></span>isReg</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a22b53c24c9f36ada7de5b51245a00f0e">isReg</a> <b><span class="keywordtype">std_logic</span><span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span></b> </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a85f318a7a6e127bc667b3ef2c16dd917" name="a85f318a7a6e127bc667b3ef2c16dd917"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85f318a7a6e127bc667b3ef2c16dd917">&#9670;&#160;</a></span>isSel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a85f318a7a6e127bc667b3ef2c16dd917">isSel</a> <b><span class="keywordtype">std_logic</span><span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span></b> </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa7f88be38dd622bf64ffb9ab828754f2" name="aa7f88be38dd622bf64ffb9ab828754f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7f88be38dd622bf64ffb9ab828754f2">&#9670;&#160;</a></span>orundetect</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#aa7f88be38dd622bf64ffb9ab828754f2">orundetect</a> <b><span class="keywordtype">std_logic</span><span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span></b> </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a88876f5c397287b38b3d242fdfc016ca" name="a88876f5c397287b38b3d242fdfc016ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88876f5c397287b38b3d242fdfc016ca">&#9670;&#160;</a></span>parity</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a88876f5c397287b38b3d242fdfc016ca">parity</a> <b><span class="keywordtype">std_logic</span><span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span></b> </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a00e99fa590fb729d5dee07f988fc8f5d" name="a00e99fa590fb729d5dee07f988fc8f5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00e99fa590fb729d5dee07f988fc8f5d">&#9670;&#160;</a></span>protocol_error</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a00e99fa590fb729d5dee07f988fc8f5d">protocol_error</a> <b><span class="keywordtype">std_logic</span><span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span></b> </td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -196,6 +390,20 @@ Signals</h2></td></tr>
 
 </div>
 </div>
+<a id="ab839b370e0b5f5b0fb632b8ef23bf035" name="ab839b370e0b5f5b0fb632b8ef23bf035"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab839b370e0b5f5b0fb632b8ef23bf035">&#9670;&#160;</a></span>sel_reg</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ab839b370e0b5f5b0fb632b8ef23bf035">sel_reg</a> <b><span class="keywordtype">std_logic</span><span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">&#39;</span><span class="vhdlchar"> </span></b> </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a736bc895bfaf729452e8468d17e2167e" name="a736bc895bfaf729452e8468d17e2167e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a736bc895bfaf729452e8468d17e2167e">&#9670;&#160;</a></span>state</h2>
 
@@ -203,21 +411,63 @@ Signals</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a736bc895bfaf729452e8468d17e2167e">state</a> <b><b><a class="el" href="#afbce8dd2b06a844f304510226d360ea5">States_t</a></b> <span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">IDLE</span><span class="vhdlchar"> </span></b> </td>
+          <td class="memname"><a class="el" href="#a736bc895bfaf729452e8468d17e2167e">state</a> <b><b><a class="el" href="#a03b262afe2f224498168e1ba5c8e0e72">States_t</a></b> <span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">IDLE</span><span class="vhdlchar"> </span></b> </td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="afbce8dd2b06a844f304510226d360ea5" name="afbce8dd2b06a844f304510226d360ea5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afbce8dd2b06a844f304510226d360ea5">&#9670;&#160;</a></span>States_t</h2>
+<a id="aef502a5c9494d29f1e5972918da8ac42" name="aef502a5c9494d29f1e5972918da8ac42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef502a5c9494d29f1e5972918da8ac42">&#9670;&#160;</a></span>state_after_trn</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#afbce8dd2b06a844f304510226d360ea5">States_t</a> <b><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar">IDLE</span><span class="vhdlchar"> </span><span class="vhdlchar">,</span><span class="vhdlchar"> </span><span class="vhdlchar">RW</span><span class="vhdlchar"> </span><span class="vhdlchar">,</span><span class="vhdlchar"> </span><span class="vhdlchar">ACK</span><span class="vhdlchar"> </span><span class="vhdlchar">,</span><span class="vhdlchar"> </span><span class="vhdlchar">RX</span><span class="vhdlchar"> </span><span class="vhdlchar">,</span><span class="vhdlchar"> </span><span class="vhdlchar">TX</span><span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span></b> </td>
+          <td class="memname"><a class="el" href="#aef502a5c9494d29f1e5972918da8ac42">state_after_trn</a> <b><b><a class="el" href="#a03b262afe2f224498168e1ba5c8e0e72">States_t</a></b> <span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">IDLE</span><span class="vhdlchar"> </span></b> </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a03b262afe2f224498168e1ba5c8e0e72" name="a03b262afe2f224498168e1ba5c8e0e72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03b262afe2f224498168e1ba5c8e0e72">&#9670;&#160;</a></span>States_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a03b262afe2f224498168e1ba5c8e0e72">States_t</a> <b><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar">IDLE</span><span class="vhdlchar"> </span><span class="vhdlchar">,</span><span class="vhdlchar"> </span><span class="vhdlchar">RW</span><span class="vhdlchar"> </span><span class="vhdlchar">,</span><span class="vhdlchar"> </span><span class="vhdlchar">ACK</span><span class="vhdlchar"> </span><span class="vhdlchar">,</span><span class="vhdlchar"> </span><span class="vhdlchar">RX</span><span class="vhdlchar"> </span><span class="vhdlchar">,</span><span class="vhdlchar"> </span><span class="vhdlchar">TX</span><span class="vhdlchar"> </span><span class="vhdlchar">,</span><span class="vhdlchar"> </span><span class="vhdlchar">TRN</span><span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span></b> </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a25ddf17f584ad0c031195d6b3ef41ec7" name="a25ddf17f584ad0c031195d6b3ef41ec7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25ddf17f584ad0c031195d6b3ef41ec7">&#9670;&#160;</a></span>trn_counter</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a25ddf17f584ad0c031195d6b3ef41ec7">trn_counter</a> <b><span class="keywordtype">integer</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="keywordflow">range</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="keywordflow">to</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">3</span> <span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span></b> </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3bd734c39b341f0ad3c70f0ae7e7789b" name="a3bd734c39b341f0ad3c70f0ae7e7789b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bd734c39b341f0ad3c70f0ae7e7789b">&#9670;&#160;</a></span>trn_period</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a3bd734c39b341f0ad3c70f0ae7e7789b">trn_period</a> <b><span class="keywordtype">std_logic_vector</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">1</span> <span class="vhdlchar"> </span><span class="keywordflow">downto</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="keyword">&quot; 00 &quot;</span><span class="vhdlchar"> </span></b> </td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -1,5 +1,5 @@
 var SWDThcH_8vhd =
 [
-    [ "SWDTchH", "classSWDTchH.html", "classSWDTchH" ],
-    [ "SWDTchH.rtl", "classSWDTchH_1_1rtl.html", "classSWDTchH_1_1rtl" ]
+    [ "SWDThcH", "classSWDThcH.html", "classSWDThcH" ],
+    [ "SWDThcH.rtl", "classSWDThcH_1_1rtl.html", "classSWDThcH_1_1rtl" ]
 ];
