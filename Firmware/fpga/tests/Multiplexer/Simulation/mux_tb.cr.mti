@@ -22,6 +22,8 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package std_logic_1164
 -- Loading package MATH_REAL
 -- Compiling package SWDComponents
+-- Compiling package body SWDComponents
+-- Loading package SWDComponents
 
 } {} {}} C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/ProtocolEngine/SWDThcH.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/ProtocolEngine/SWDThcH.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -39,16 +41,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity SWDHcH
 -- Compiling architecture rtl of SWDHcH
 
-} {} {}} C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/ProtocolEngine/SWDDvcMux.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/ProtocolEngine/SWDDvcMux.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package MATH_REAL
--- Loading package NUMERIC_STD
--- Compiling entity SWDDvcMux
--- Compiling architecture behaviour of SWDDvcMux
-
 } {} {}} C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/ProtocolEngine/SWDDbgMux.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/ProtocolEngine/SWDDbgMux.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -65,16 +57,27 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity SWDLineReader
 -- Compiling architecture behaviour of SWDLineReader
 
-} {} {}} C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/Multiplexer/Multiplexer_test.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/Multiplexer/Multiplexer_test.vhd
+} {} {}} C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/ProtocolEngine/SWDMultiplexer.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/ProtocolEngine/SWDMultiplexer.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package MATH_REAL
--- Loading package SWDComponents
 -- Loading package NUMERIC_STD
--- Compiling entity Multiplexer_test
--- Compiling architecture behaviour of Multiplexer_test
+-- Loading package SWDComponents
+-- Compiling entity SWDMultiplexer
+-- Compiling architecture behaviour of SWDMultiplexer
+
+} {} {}} C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/ProtocolEngine/SWDDvcMux.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/ProtocolEngine/SWDDvcMux.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package MATH_REAL
+-- Loading package NUMERIC_STD
+-- Loading package SWDComponents
+-- Compiling entity SWDDvcMux
+-- Compiling architecture behaviour of SWDDvcMux
 
 } {} {}} C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/ProtocolEngine/SWDProtocolEngine.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/ProtocolEngine/SWDProtocolEngine.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016

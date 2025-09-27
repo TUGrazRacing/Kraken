@@ -130,7 +130,7 @@ begin
                     if(ack_counter < 2) then
                         ack_counter <= ack_counter + 1;
                     else
-                        if(ack_var = "001") then   -- check if ack == OK
+                        if(ack_var = "001" or orundetect = '1') then   -- check if ack == OK
                             if(RnW = '1') then -- check read or write request
                                 state <= RX;  -- transition to RX
                             else

@@ -127,4 +127,44 @@ package SWDComponents is
             direction_dvc_mux : out std_logic
         );
     end component;
+
+    component SWDMultiplexer is
+        generic(
+            port_count : integer := 1
+        );
+        port(
+            DbgPin : inout std_logic;
+            DvcPins : inout std_logic_vector(port_count-1 downto 0);
+            clk_out : out std_logic_vector(port_count-1 downto 0);
+            reset_out : out std_logic_vector(port_count-1 downto 0);
+            clk_in : in std_logic;
+            reset_in : in std_logic;
+            sel : in std_logic_vector(integer(ceil(log2(real(port_count))))-1 downto 0) -- generate the correct number of select lines. Should be synthesizable!
+        );
+    end component;
+
+    -- Function to safely compute ceil(log2(N)) with a minimum of 1
+    function log2ceil_safe(n : integer) return integer;
+
+
+end SWDComponents;
+
+
+
+
+package body SWDComponents is 
+
+-- Function to safely compute ceil(log2(N)) with a minimum of 1
+function log2ceil_safe(n : integer) return integer is
+begin
+    if n <= 1 then
+        return 1;
+    else
+        return integer(ceil(log2(real(n))));
+    end if;
+end function;
+
+
+
+
 end SWDComponents;

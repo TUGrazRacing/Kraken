@@ -2,6 +2,7 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.math_real.all;
 use ieee.numeric_std.all;
+use work.SWDComponents.all;
 
 
 entity SWDDvcMux is
@@ -9,7 +10,7 @@ entity SWDDvcMux is
         port_count : integer := 1
     );
     port(
-        sel : in std_logic_vector(integer(ceil(log2(real(port_count))))-1 downto 0); -- generate the correct number of select lines. Should be synthesizable!
+        sel : in std_logic_vector(log2ceil_safe(port_count)-1 downto 0); -- generate the correct number of select lines. Should be synthesizable!
         toDebugger : out std_logic;
         toDevice : in std_logic;
         direction : in std_logic;
@@ -33,7 +34,7 @@ begin
     clk_out <= (others => 'Z');
     reset_out <= (others => 'Z');
 
-    if(highz = '0') then
+    if(highz = '0' and to_integer(unsigned(sel)) < port_count) then
         clk_out(to_integer(unsigned(sel))) <= clk_in;
         pin(to_integer(unsigned(sel))) <= toDevice;
         reset_out(to_integer(unsigned(sel))) <= reset_in;
