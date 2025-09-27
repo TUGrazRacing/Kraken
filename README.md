@@ -7,8 +7,9 @@ The Kraken is a project aimed to reduce debugging time. It allows an external J-
 
 ## Roadmap
 ### FPGA
-- [ ] Test nios II softcore microcontroller
-- [ ] Simulate custom bidirectional controller
+- [x] Test nios II softcore microcontroller
+- [x] Simulate custom bidirectional controller
+- [ ] Build testbench for SWD protocol with custom test/error cases for verification
 - [ ] Test bidirectional controller on hardware 
 - [ ] Simulate CTU CAN FD controller
 - [ ] Test CTU CAN FD controller with custom nios II platform
