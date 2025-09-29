@@ -1,12 +1,19 @@
 var searchData=
 [
-  ['t_5ffchighz_0',['t_fchighz',['../classSWDProtocolEngine_1_1behaviour.html#a373764b35a59e9114f38f112d2713aad',1,'SWDProtocolEngine::behaviour']]],
-  ['t_5fhchighz_1',['t_hchighz',['../classSWDProtocolEngine_1_1behaviour.html#af307ff417a41c1902fc7b7adf829ce95',1,'SWDProtocolEngine::behaviour']]],
-  ['t_5fthchighz_2',['t_thchighz',['../classSWDProtocolEngine_1_1behaviour.html#ab78fb7a81c672c206eb1ce9200281904',1,'SWDProtocolEngine::behaviour']]],
-  ['todebugger_3',['toDebugger',['../classSWDDbgMux.html#adf8e6f3ca4968df13766941a3728c9c0',1,'SWDDbgMux.toDebugger'],['../classSWDDvcMux.html#a683dedc6c5f754bf2df4af5d57bb3647',1,'SWDDvcMux.toDebugger']]],
-  ['todevice_4',['toDevice',['../classSWDDbgMux.html#a87d595793d88921e088c461ec65c6210',1,'SWDDbgMux.toDevice'],['../classSWDDvcMux.html#a1bf35a4228f02cddbbe4f9fa21c52fc9',1,'SWDDvcMux.toDevice']]],
-  ['trigger_5',['trigger',['../classSWDHcH.html#ae4cd75b4dfdb6fc9205d3c17e9678ada',1,'SWDHcH.trigger'],['../classSWDThcH.html#ae4cd75b4dfdb6fc9205d3c17e9678ada',1,'SWDThcH.trigger']]],
-  ['trigger_5fprev_6',['trigger_prev',['../classSWDHcH_1_1rtl.html#a2aa4bfd734c1bfd837159a13638d870f',1,'SWDHcH.rtl.trigger_prev'],['../classSWDThcH_1_1rtl.html#a2aa4bfd734c1bfd837159a13638d870f',1,'SWDThcH.rtl.trigger_prev']]],
-  ['trn_5fcounter_7',['trn_counter',['../classSWDStateMachine_1_1behaviour.html#a25ddf17f584ad0c031195d6b3ef41ec7',1,'SWDStateMachine::behaviour']]],
-  ['trn_5fperiod_8',['trn_period',['../classSWDStateMachine_1_1behaviour.html#a3bd734c39b341f0ad3c70f0ae7e7789b',1,'SWDStateMachine::behaviour']]]
+  ['sel_0',['sel',['../classSWDDvcMux.html#a08e861cadf05d550e2e8620f958e9dad',1,'SWDDvcMux.sel'],['../classSWDMultiplexer.html#a08e861cadf05d550e2e8620f958e9dad',1,'SWDMultiplexer.sel']]],
+  ['sel_5freg_1',['sel_reg',['../classSWDStateMachine_1_1behaviour.html#ab839b370e0b5f5b0fb632b8ef23bf035',1,'SWDStateMachine::behaviour']]],
+  ['state_2',['state',['../classSWDStateMachine_1_1behaviour.html#a736bc895bfaf729452e8468d17e2167e',1,'SWDStateMachine::behaviour']]],
+  ['state_5fafter_5ftrn_3',['state_after_trn',['../classSWDStateMachine_1_1behaviour.html#aef502a5c9494d29f1e5972918da8ac42',1,'SWDStateMachine::behaviour']]],
+  ['states_5ft_4',['States_t',['../classSWDStateMachine_1_1behaviour.html#a03b262afe2f224498168e1ba5c8e0e72',1,'SWDStateMachine::behaviour']]],
+  ['std_5flogic_5f1164_5',['std_logic_1164',['../classSWDComponents.html#acd03516902501cd1c7296a98e22c6fcb',1,'SWDComponents.std_logic_1164'],['../classSWDDbgMux.html#acd03516902501cd1c7296a98e22c6fcb',1,'SWDDbgMux.std_logic_1164'],['../classSWDDvcMux.html#acd03516902501cd1c7296a98e22c6fcb',1,'SWDDvcMux.std_logic_1164'],['../classSWDHcH.html#acd03516902501cd1c7296a98e22c6fcb',1,'SWDHcH.std_logic_1164'],['../classSWDLineReader.html#acd03516902501cd1c7296a98e22c6fcb',1,'SWDLineReader.std_logic_1164'],['../classSWDMultiplexer.html#acd03516902501cd1c7296a98e22c6fcb',1,'SWDMultiplexer.std_logic_1164'],['../classSWDProtocolEngine.html#acd03516902501cd1c7296a98e22c6fcb',1,'SWDProtocolEngine.std_logic_1164'],['../classSWDRst.html#acd03516902501cd1c7296a98e22c6fcb',1,'SWDRst.std_logic_1164'],['../classSWDStateMachine.html#acd03516902501cd1c7296a98e22c6fcb',1,'SWDStateMachine.std_logic_1164'],['../classSWDThcH.html#acd03516902501cd1c7296a98e22c6fcb',1,'SWDThcH.std_logic_1164']]],
+  ['swdcomponents_6',['SWDComponents',['../classSWDDvcMux.html#af7fb4ab2a3755f31cf9b1d2cc1f9e12a',1,'SWDDvcMux.SWDComponents'],['../classSWDMultiplexer.html#af7fb4ab2a3755f31cf9b1d2cc1f9e12a',1,'SWDMultiplexer.SWDComponents'],['../classSWDProtocolEngine.html#af7fb4ab2a3755f31cf9b1d2cc1f9e12a',1,'SWDProtocolEngine.SWDComponents']]],
+  ['swddbgmux_7',['SWDDbgMux',['../classSWDComponents.html#a09e611f7cd0c93e15b9a35040a459b11',1,'SWDComponents']]],
+  ['swddvcmux_8',['SWDDvcMux',['../classSWDComponents.html#a5795dea5f914f218e39640989085e039',1,'SWDComponents']]],
+  ['swdhch_9',['SWDHcH',['../classSWDComponents.html#a79419601cd12000f7d0a8fb52dae0b0c',1,'SWDComponents']]],
+  ['swdlinereader_10',['SWDLineReader',['../classSWDComponents.html#a4e6f32820984850c453a5f89fd0512cf',1,'SWDComponents']]],
+  ['swdmultiplexer_11',['SWDMultiplexer',['../classSWDComponents.html#a5d5a84d50453b164a41d623a0fe6a4e6',1,'SWDComponents']]],
+  ['swdprotocolengine_12',['SWDProtocolEngine',['../classSWDComponents.html#a3d2dbf12c11d5c7ec3fcaab50c28663d',1,'SWDComponents']]],
+  ['swdrst_13',['SWDRst',['../classSWDComponents.html#ac55e2d954db90980f3467f2b472d3004',1,'SWDComponents']]],
+  ['swdstatemachine_14',['SWDStateMachine',['../classSWDComponents.html#ae632d76b5f22a82a30cf9a97bf20f5c2',1,'SWDComponents']]],
+  ['swdthch_15',['SWDThcH',['../classSWDComponents.html#af1d0ba5dc638d445509c1abd4be27331',1,'SWDComponents']]]
 ];

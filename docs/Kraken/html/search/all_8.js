@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['orundetect_0',['orundetect',['../classSWDStateMachine_1_1behaviour.html#aa7f88be38dd622bf64ffb9ab828754f2',1,'SWDStateMachine::behaviour']]],
-  ['out_5fsignal_1',['out_signal',['../classSWDHcH.html#ae6f3f8d8a851a85399cf23b92d505b02',1,'SWDHcH.out_signal'],['../classSWDThcH.html#ae6f3f8d8a851a85399cf23b92d505b02',1,'SWDThcH.out_signal']]]
+  ['math_5freal_0',['math_real',['../classSWDComponents.html#acb415f2e3abd505b8338da5b5bf9e2fb',1,'SWDComponents.math_real'],['../classSWDDvcMux.html#acb415f2e3abd505b8338da5b5bf9e2fb',1,'SWDDvcMux.math_real'],['../classSWDMultiplexer.html#acb415f2e3abd505b8338da5b5bf9e2fb',1,'SWDMultiplexer.math_real']]]
 ];

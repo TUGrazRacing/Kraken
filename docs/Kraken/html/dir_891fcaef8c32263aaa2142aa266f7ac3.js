@@ -5,6 +5,7 @@ var dir_891fcaef8c32263aaa2142aa266f7ac3 =
     [ "SWDDvcMux.vhd", "SWDDvcMux_8vhd.html", "SWDDvcMux_8vhd" ],
     [ "SWDHcH.vhd", "SWDHcH_8vhd.html", "SWDHcH_8vhd" ],
     [ "SWDLineReader.vhd", "SWDLineReader_8vhd.html", "SWDLineReader_8vhd" ],
+    [ "SWDMultiplexer.vhd", "SWDMultiplexer_8vhd.html", "SWDMultiplexer_8vhd" ],
     [ "SWDProtocolEngine.vhd", "SWDProtocolEngine_8vhd.html", "SWDProtocolEngine_8vhd" ],
     [ "SWDRst.vhd", "SWDRst_8vhd.html", "SWDRst_8vhd" ],
     [ "SWDStateMachine.vhd", "SWDStateMachine_8vhd.html", "SWDStateMachine_8vhd" ],

@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['ieee_0',['ieee',['../classSWDComponents.html#a0a6af6eef40212dbaf130d57ce711256',1,'SWDComponents.ieee'],['../classSWDDbgMux.html#a0a6af6eef40212dbaf130d57ce711256',1,'SWDDbgMux.ieee'],['../classSWDDvcMux.html#a0a6af6eef40212dbaf130d57ce711256',1,'SWDDvcMux.ieee'],['../classSWDHcH.html#a0a6af6eef40212dbaf130d57ce711256',1,'SWDHcH.ieee'],['../classSWDLineReader.html#a0a6af6eef40212dbaf130d57ce711256',1,'SWDLineReader.ieee'],['../classSWDProtocolEngine.html#a0a6af6eef40212dbaf130d57ce711256',1,'SWDProtocolEngine.ieee'],['../classSWDRst.html#a0a6af6eef40212dbaf130d57ce711256',1,'SWDRst.ieee'],['../classSWDStateMachine.html#a0a6af6eef40212dbaf130d57ce711256',1,'SWDStateMachine.ieee'],['../classSWDThcH.html#a0a6af6eef40212dbaf130d57ce711256',1,'SWDThcH.ieee']]],
-  ['isdp_1',['isDP',['../classSWDStateMachine_1_1behaviour.html#a8ab8830a6664422564f693b6555ea50a',1,'SWDStateMachine::behaviour']]],
-  ['isreg_2',['isReg',['../classSWDStateMachine_1_1behaviour.html#a22b53c24c9f36ada7de5b51245a00f0e',1,'SWDStateMachine::behaviour']]],
-  ['issel_3',['isSel',['../classSWDStateMachine_1_1behaviour.html#a85f318a7a6e127bc667b3ef2c16dd917',1,'SWDStateMachine::behaviour']]]
+  ['half_5fcycle_5f1_0',['half_cycle_1',['../classSWDThcH_1_1rtl.html#a68e8e95ce867c64a693365ef5494380c',1,'SWDThcH::rtl']]],
+  ['half_5fcycle_5f2_1',['half_cycle_2',['../classSWDThcH_1_1rtl.html#a0ec0f67534cde743d645bd670b70759c',1,'SWDThcH::rtl']]],
+  ['half_5fcycle_5f3_2',['half_cycle_3',['../classSWDThcH_1_1rtl.html#abd9d02c5c1ac9d537b2817fd00b21c4f',1,'SWDThcH::rtl']]],
+  ['highz_3',['highz',['../classSWDDbgMux.html#a9ea6ed102fcb2456d85eea22bc630519',1,'SWDDbgMux.highz'],['../classSWDDvcMux.html#a9ea6ed102fcb2456d85eea22bc630519',1,'SWDDvcMux.highz'],['../classSWDMultiplexer_1_1behaviour.html#a94f592b573c4dc76f9c04a9dcfac5a93',1,'SWDMultiplexer.behaviour.highz'],['../classSWDProtocolEngine.html#a91f441c12c9b6cf980636b8af94d6c2f',1,'SWDProtocolEngine.highz'],['../classSWDStateMachine.html#a91f441c12c9b6cf980636b8af94d6c2f',1,'SWDStateMachine.highz']]],
+  ['highz_5fsig_4',['highz_sig',['../classSWDProtocolEngine_1_1behaviour.html#af4617c08eadb377e5a186aa6516f8620',1,'SWDProtocolEngine::behaviour']]]
 ];
