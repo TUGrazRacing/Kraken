@@ -1892,3 +1892,304 @@ run -all
 #    Time: 79900 ns  Iteration: 0  Process: /multiplexer_test/Host File: C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/Multiplexer/Multiplexer_test.vhd
 # Break in Process Host at C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/Multiplexer/Multiplexer_test.vhd line 424
 # could not find interpreter "ScintillaTk"
+# Compile of Multiplexer_test.vhd was successful.
+restart
+# Loading work.multiplexer_test(behaviour)
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /multiplexer_test/tb/devicemux
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /multiplexer_test/tb/devicemux
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /multiplexer_test/tb/devicemux
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Note: Line reset!
+#    Time: 11500 ns  Iteration: 0  Instance: /multiplexer_test
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Note: Line reset!
+#    Time: 25100 ns  Iteration: 0  Instance: /multiplexer_test
+run
+run
+run
+run
+run
+run
+run -all
+# ** Note: Write test finished:
+#    Time: 35200 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Error:     - Data failed!
+#    Time: 35200 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Error:     - Request failed!
+#    Time: 35200 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Read test finished:
+#    Time: 45800 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Data passed!
+#    Time: 45800 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Request passed!
+#    Time: 45800 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Read test after wait ack finished:
+#    Time: 59600 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Data passed!
+#    Time: 59600 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Request passed!
+#    Time: 59600 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Read test after fault ack finished:
+#    Time: 73400 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Data passed!
+#    Time: 73400 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Request passed!
+#    Time: 73400 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Read test after parity error finished:
+#    Time: 94 us  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Data passed!
+#    Time: 94 us  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Request passed!
+#    Time: 94 us  Iteration: 0  Instance: /multiplexer_test
+# ** Failure: Test finished!
+#    Time: 94500 ns  Iteration: 0  Process: /multiplexer_test/Host File: C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/Multiplexer/Multiplexer_test.vhd
+# Break in Process Host at C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/Multiplexer/Multiplexer_test.vhd line 450
+# could not find interpreter "ScintillaTk"
+# Compile of Multiplexer_test.vhd was successful.
+restart
+# Loading work.multiplexer_test(behaviour)
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /multiplexer_test/tb/devicemux
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /multiplexer_test/tb/devicemux
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /multiplexer_test/tb/devicemux
+# ** Note: Line reset!
+#    Time: 11500 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Line reset!
+#    Time: 24700 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Write test finished:
+#    Time: 34600 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Data passed!
+#    Time: 34600 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Request passed!
+#    Time: 34600 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Read test finished:
+#    Time: 45200 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Data passed!
+#    Time: 45200 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Request passed!
+#    Time: 45200 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Read test after wait ack finished:
+#    Time: 59 us  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Data passed!
+#    Time: 59 us  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Request passed!
+#    Time: 59 us  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Read test after fault ack finished:
+#    Time: 72800 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Data passed!
+#    Time: 72800 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Request passed!
+#    Time: 72800 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Read test after parity error finished:
+#    Time: 93400 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Data passed!
+#    Time: 93400 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Request passed!
+#    Time: 93400 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: #####################  All tests passed ######################
+#    Time: 93900 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Failure: Test finished!
+#    Time: 93900 ns  Iteration: 0  Process: /multiplexer_test/Host File: C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/Multiplexer/Multiplexer_test.vhd
+# Break in Process Host at C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/Multiplexer/Multiplexer_test.vhd line 450
+# could not find interpreter "ScintillaTk"
+# Compile of Multiplexer_test.vhd failed with 2 errors.
+# Compile of Multiplexer_test.vhd was successful.
+# Compile of Multiplexer_test.vhd was successful.
+# Compile of SWDThcH.vhd was successful.
+# Compile of SWDComponents.vhd was successful.
+# Compile of SWDDbgMux.vhd was successful.
+# Compile of SWDDvcMux.vhd was successful.
+# Compile of SWDHcH.vhd was successful.
+# Compile of SWDLineReader.vhd was successful.
+# Compile of SWDProtocolEngine.vhd was successful.
+# Compile of SWDRst.vhd was successful.
+# Compile of SWDStateMachine.vhd was successful.
+# Compile of SWDMultiplexer.vhd was successful.
+# 11 compiles, 0 failed with no errors.
+restart
+# Loading work.swdcomponents(body)
+# Loading work.multiplexer_test(behaviour)
+# Loading work.swdmultiplexer(behaviour)
+# Loading work.swddvcmux(behaviour)
+# Loading work.swddbgmux(behaviour)
+# Loading work.swdprotocolengine(behaviour)
+# Loading work.swdlinereader(behaviour)
+# Loading work.swdstatemachine(behaviour)
+# Loading work.swdrst(behaviour)
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /multiplexer_test/tb/devicemux
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /multiplexer_test/tb/devicemux
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /multiplexer_test/tb/devicemux
+# ** Note: JTAG to SWD transition!
+#    Time: 13400 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Line reset!
+#    Time: 24800 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Write test finished:
+#    Time: 34600 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Data passed!
+#    Time: 34600 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Request passed!
+#    Time: 34600 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Read test finished:
+#    Time: 45200 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Data passed!
+#    Time: 45200 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Request passed!
+#    Time: 45200 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Read test after wait ack finished:
+#    Time: 59 us  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Data passed!
+#    Time: 59 us  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Request passed!
+#    Time: 59 us  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Read test after fault ack finished:
+#    Time: 72800 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Data passed!
+#    Time: 72800 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Request passed!
+#    Time: 72800 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Read test after parity error finished:
+#    Time: 93400 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Data passed!
+#    Time: 93400 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Request passed!
+#    Time: 93400 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: #####################  All tests passed ######################
+#    Time: 93900 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Failure: Test finished!
+#    Time: 93900 ns  Iteration: 0  Process: /multiplexer_test/Host File: C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/Multiplexer/Multiplexer_test.vhd
+# Break in Process Host at C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/Multiplexer/Multiplexer_test.vhd line 451
+# could not find interpreter "ScintillaTk"

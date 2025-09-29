@@ -17,13 +17,35 @@ end entity;
 architecture behaviour of Multiplexer_test is
 
 
+
+procedure host_swd_transition(signal pin : inout std_logic;
+                              signal clk : in std_logic
+) is
+  variable sequence : std_logic_vector(15 downto 0) := x"E79E";   -- swquence for jtag to swd sequence with LSB ordering
+begin
+for i in 0 to 50 loop
+  wait until falling_edge(clk);
+  pin <= '1';
+end loop;
+
+for i in 0 to sequence'length-1 loop
+  wait until falling_edge(clk);
+  pin <= sequence(i);
+end loop;
+
+end procedure;
+
+
+
+
+
 procedure host_linereset(signal pin : inout std_logic;
                          signal clk : in std_logic
                 
 ) is
 begin
 
-for i in 0 to 50 loop
+for i in 0 to 48 loop
   wait until falling_edge(clk);
   pin <= '1';
 end loop;
@@ -51,7 +73,7 @@ begin
   wait until rising_edge(clk) and pin = '0';
   wait until rising_edge(clk) and pin = '0';
 
-  report "Line reset!";
+  
   reset <= '1';
 end procedure;
 
@@ -354,9 +376,14 @@ sel(0) <= '0';
 Host : process
 begin
 
-  host_linereset(test_pin, clk);
+  host_swd_transition(test_pin, clk);
+  report "JTAG to SWD transition!";
+  wait for 1000 ns;
 
+  host_linereset(test_pin, clk);
+  report "Line reset!";
   wait until falling_edge(clk);
+
   test_request_host <= "001";  -- write test
   test_data_host <= "01100110100110011010101011110000";
   wait until falling_edge(clk);
