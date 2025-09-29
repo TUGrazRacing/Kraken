@@ -17,7 +17,7 @@ entity SWDDvcMux is
         highz : in std_logic;
         clk_in : in std_logic;
         reset_in : in std_logic;
-        pin : inout std_logic_vector(port_count-1 downto 0);
+        pin : inout std_logic_vector(port_count-1 downto 0) := (others => 'Z');
         clk_out : out std_logic_vector(port_count-1 downto 0);
         reset_out : out std_logic_vector(port_count-1 downto 0)
     );
@@ -28,16 +28,17 @@ architecture behaviour of SWDDvcMux is
 begin
 toDebugger <= pin(to_integer(unsigned(sel)));
 
-process(sel, toDevice, clk_in, reset_in)
+process(sel, toDevice, clk_in, reset_in, highz)
 begin
     pin <= (others => 'Z');
     clk_out <= (others => 'Z');
     reset_out <= (others => 'Z');
 
-    if(highz = '0' and to_integer(unsigned(sel)) < port_count) then
-        clk_out(to_integer(unsigned(sel))) <= clk_in;
-        pin(to_integer(unsigned(sel))) <= toDevice;
-        reset_out(to_integer(unsigned(sel))) <= reset_in;
+    clk_out(to_integer(unsigned(sel))) <= clk_in;
+    reset_out(to_integer(unsigned(sel))) <= reset_in;
+
+    if(highz = '0' and to_integer(unsigned(sel)) < port_count and direction = '1') then
+        pin(to_integer(unsigned(sel))) <= toDevice; 
     end if;
 end process;
 

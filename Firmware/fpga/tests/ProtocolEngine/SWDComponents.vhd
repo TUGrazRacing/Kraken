@@ -143,6 +143,16 @@ package SWDComponents is
         );
     end component;
 
+    component SWDRst is
+        port(
+            rst : out std_logic;
+            clk : in std_logic;
+            data : in std_logic
+        );
+    end component;
+
+
+
     -- Function to safely compute ceil(log2(N)) with a minimum of 1
     function log2ceil_safe(n : integer) return integer;
 

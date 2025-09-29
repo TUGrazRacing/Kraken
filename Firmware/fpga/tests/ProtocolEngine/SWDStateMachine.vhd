@@ -9,7 +9,7 @@ entity SWDStateMachine is
         reset : in std_logic;  -- asynch reset
         data_in_r : in std_logic; -- data sampled on the rising edge
         data_in_f : in std_logic; -- data sampled on the falling edge
-        direction : out std_logic; -- 0 = debugger to device; 1 = device to debugger
+        direction : out std_logic := '0'; -- 0 = debugger to device; 1 = device to debugger
         highz : out std_logic -- direct control signal for highz
     );
 end entity;
@@ -65,6 +65,8 @@ begin
                 when IDLE =>
                     direction_sig <= '0';
                     highz <= '0';
+                    parity <= '0';
+                    protocol_error <= '0';
 
                     if(data_in_r='1') then  -- detect start bit HIGH
                         state <= RW;
@@ -130,7 +132,7 @@ begin
                     if(ack_counter < 2) then
                         ack_counter <= ack_counter + 1;
                     else
-                        if(ack_var = "001" or orundetect = '1') then   -- check if ack == OK
+                        if(ack_var = "001" or (orundetect = '1' and (ack_var = "010" or ack_var = "100"))) then   -- check if ack == OK
                             if(RnW = '1') then -- check read or write request
                                 state <= RX;  -- transition to RX
                             else

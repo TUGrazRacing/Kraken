@@ -4,7 +4,7 @@ use ieee.std_logic_1164.all;
 
 entity SWDDbgMux is
     port(
-        pin : inout std_logic;
+        pin : inout std_logic := 'Z';
         toDevice : out std_logic;
         toDebugger : in std_logic;
         highz : in std_logic;

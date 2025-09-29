@@ -13,8 +13,8 @@ entity SWDMultiplexer is
         port_count : integer := 1
     );
     port(
-        DbgPin : inout std_logic;
-        DvcPins : inout std_logic_vector(port_count-1 downto 0);
+        DbgPin : inout std_logic := 'Z';
+        DvcPins : inout std_logic_vector(port_count-1 downto 0) := (others => 'Z');
         clk_out : out std_logic_vector(port_count-1 downto 0);
         reset_out : out std_logic_vector(port_count-1 downto 0);
         clk_in : in std_logic;
@@ -31,8 +31,14 @@ architecture behaviour of SWDMultiplexer is
 signal toDebugger, toDevice : std_logic := '0';
 signal dir_dvc, dir_dbg : std_logic;
 signal highz : std_logic := '1';
+signal linereset : std_logic := '0';
+signal reset : std_logic := '0';
 
 begin
+
+reset <= linereset or reset_in;
+
+
 devicemux : SWDDvcMux
 generic map(
     port_count => port_count
@@ -62,12 +68,19 @@ port map(
 protocolengine : SWDProtocolEngine
 port map(
     clk => clk_in,
-    reset => reset_in,
+    reset => reset,
     DbgToDvc => toDevice,
     DvcToDbg => toDebugger,
     highz => highz,
     direction_dbg_mux => dir_dbg,
     direction_dvc_mux => dir_dvc
+);
+
+reset_dectector : SWDRst
+port map(
+    rst => linereset,
+    clk => clk_in,
+    data => toDevice
 );
 
 
