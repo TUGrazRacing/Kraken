@@ -1,7 +1,23 @@
-# Kraken
+# <img src="./docs/Documents/logo.png" alt="Kraken logo" width="50"/> Kraken
 ## Description
 The Kraken is a project aimed to reduce debugging time. It allows an external J-Link Segger debugger to reprogram/debug the PCBs of the LV stack without needing to open the car. It is a platform build based on a fpga containing custom bidirectional control logic in order to multiplex bidirectional signals, the CTU CAN FD controller, and a nios II softcore microcontroller to manage the control flow. 
-![Fpga architecture](./docs/Documents/fpga_architecture.png)
+![Fpga architecture](./docs/Documents/Fpga/fpga_architecture.png)
+
+<br/>
+
+## Development tools
+### Fpga design
+- Quartus prime Lite: For Synthesis, Place & Route, Platform design and Intel IP cores
+- Visual Studio Code: As code editor for the .vhd files
+- Intel ModelSim: For simulation of the fpga design
+
+### Firmware development
+- Nios II Software build tool for Eclipse: For development and compilation of the nios II firmware
+
+### PCB
+- Altium: For PCB design and schematics
+- LTSpice: For simulation of the PCB
+
 
 <br/>
 
@@ -10,7 +26,7 @@ The Kraken is a project aimed to reduce debugging time. It allows an external J-
 - [x] Test nios II softcore microcontroller
 - [ ] Build custom bidirectional protocol multiplexer
   - [x] Write VHDL design for individual building blocks 
-  - [ ] Build testbench for SWD protocol with custom test/error cases for verification
+  - [x] Build testbench for SWD protocol with custom test/error cases for verification
   - [ ] Verify multiplexer design in all test and error cases
 - [ ] Test bidirectional controller on hardware 
 - [ ] Simulate CTU CAN FD controller
