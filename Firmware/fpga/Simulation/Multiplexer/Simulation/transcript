@@ -85,3 +85,5 @@ run -all
 #    Time: 93900 ns  Iteration: 0  Process: /multiplexer_test/Host File: C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/Simulation/Multiplexer/Multiplexer_test.vhd
 # Break in Process Host at C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/Simulation/Multiplexer/Multiplexer_test.vhd line 451
 # could not find interpreter "ScintillaTk"
+# End time: 16:44:52 on Sep 30,2025, Elapsed time: 0:26:21
+# Errors: 1, Warnings: 5

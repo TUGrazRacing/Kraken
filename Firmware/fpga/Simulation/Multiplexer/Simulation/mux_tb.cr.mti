@@ -1,1 +1,103 @@
+C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDMultiplexer.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDMultiplexer.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package MATH_REAL
+-- Loading package NUMERIC_STD
+-- Loading package SWDComponents
+-- Compiling entity SWDMultiplexer
+-- Compiling architecture behaviour of SWDMultiplexer
 
+} {} {}} C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDLineReader.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDLineReader.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SWDLineReader
+-- Compiling architecture behaviour of SWDLineReader
+
+} {} {}} C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDHcH.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDHcH.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SWDHcH
+-- Compiling architecture rtl of SWDHcH
+
+} {} {}} C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDDvcMux.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDDvcMux.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package MATH_REAL
+-- Loading package NUMERIC_STD
+-- Loading package SWDComponents
+-- Compiling entity SWDDvcMux
+-- Compiling architecture behaviour of SWDDvcMux
+
+} {} {}} C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDDbgMux.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDDbgMux.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SWDDbgMux
+-- Compiling architecture behaviour of SWDDbgMux
+
+} {} {}} C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDThcH.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDThcH.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SWDThcH
+-- Compiling architecture rtl of SWDThcH
+
+} {} {}} C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/Simulation/Multiplexer/Multiplexer_test.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/Simulation/Multiplexer/Multiplexer_test.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package MATH_REAL
+-- Loading package SWDComponents
+-- Loading package NUMERIC_STD
+-- Compiling entity Multiplexer_test
+-- Compiling architecture behaviour of Multiplexer_test
+
+} {} {}} C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDProtocolEngine.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDProtocolEngine.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package MATH_REAL
+-- Loading package SWDComponents
+-- Compiling entity SWDProtocolEngine
+-- Compiling architecture behaviour of SWDProtocolEngine
+
+} {} {}} C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDRst.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDRst.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SWDRst
+-- Compiling architecture behaviour of SWDRst
+
+} {} {}} C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDStateMachine.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDStateMachine.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity SWDStateMachine
+-- Compiling architecture behaviour of SWDStateMachine
+
+} {} {}} C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDComponents.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDComponents.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package MATH_REAL
+-- Compiling package SWDComponents
+-- Compiling package body SWDComponents
+-- Loading package SWDComponents
+
+} {} {}}
