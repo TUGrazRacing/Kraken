@@ -1,0 +1,87 @@
+# 0 compiles, 11 failed with no errors.
+# Compile of Multiplexer_test.vhd was successful.
+# Compile of SWDThcH.vhd was successful.
+# Compile of SWDComponents.vhd was successful.
+# Compile of SWDDbgMux.vhd was successful.
+# Compile of SWDDvcMux.vhd was successful.
+# Compile of SWDHcH.vhd was successful.
+# Compile of SWDLineReader.vhd was successful.
+# Compile of SWDMultiplexer.vhd was successful.
+# Compile of SWDProtocolEngine.vhd was successful.
+# Compile of SWDRst.vhd was successful.
+# Compile of SWDStateMachine.vhd was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.multiplexer_test
+# vsim -gui work.multiplexer_test 
+# Start time: 16:18:31 on Sep 30,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading work.swdcomponents(body)
+# Loading ieee.numeric_std(body)
+# Loading work.multiplexer_test(behaviour)
+# Loading work.swdmultiplexer(behaviour)
+# Loading work.swddvcmux(behaviour)
+# Loading work.swddbgmux(behaviour)
+# Loading work.swdprotocolengine(behaviour)
+# Loading work.swdlinereader(behaviour)
+# Loading work.swdstatemachine(behaviour)
+# Loading work.swdrst(behaviour)
+add wave -position end  sim:/multiplexer_test/test_pin
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Jakob  Hostname: LAPTOP-JAKOSI  ProcessID: 1564
+#           Attempting to use alternate WLF file "./wlfta5k0tf".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfta5k0tf
+add wave -position end  sim:/multiplexer_test/dbgpin
+add wave -position end  sim:/multiplexer_test/clk
+add wave -position end  sim:/multiplexer_test/clk_out
+add wave -position 2  sim:/multiplexer_test/dvcpin(0)
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /multiplexer_test/tb/devicemux
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /multiplexer_test/tb/devicemux
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /multiplexer_test/tb/devicemux
+# ** Note: JTAG to SWD transition!
+#    Time: 13400 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Line reset!
+#    Time: 24800 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Write test finished:
+#    Time: 34600 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Data passed!
+#    Time: 34600 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Request passed!
+#    Time: 34600 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Read test finished:
+#    Time: 45200 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Data passed!
+#    Time: 45200 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Request passed!
+#    Time: 45200 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Read test after wait ack finished:
+#    Time: 59 us  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Data passed!
+#    Time: 59 us  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Request passed!
+#    Time: 59 us  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Read test after fault ack finished:
+#    Time: 72800 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Data passed!
+#    Time: 72800 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Request passed!
+#    Time: 72800 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Read test after parity error finished:
+#    Time: 93400 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Data passed!
+#    Time: 93400 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Request passed!
+#    Time: 93400 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: #####################  All tests passed ######################
+#    Time: 93900 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Failure: Test finished!
+#    Time: 93900 ns  Iteration: 0  Process: /multiplexer_test/Host File: C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/Simulation/Multiplexer/Multiplexer_test.vhd
+# Break in Process Host at C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/Simulation/Multiplexer/Multiplexer_test.vhd line 451
+# could not find interpreter "ScintillaTk"

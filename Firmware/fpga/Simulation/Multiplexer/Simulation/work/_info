@@ -1,0 +1,505 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Jakob/Documents/dev/FPGA_Stuff/Simulations
+Emultiplexer_test
+Z0 w1759159756
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+Z3 DPx4 work 13 swdcomponents 0 22 iOF3b7fOghAN[5@B6D>lT2
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z6 dC:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/Simulation/Multiplexer/Simulation
+Z7 8C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/Simulation/Multiplexer/Multiplexer_test.vhd
+Z8 FC:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/Simulation/Multiplexer/Multiplexer_test.vhd
+l0
+L7
+VeVO`76mdc95fNozaZlPS:0
+!s100 9W5X`gUgSIBXTQ2ZV=I@W0
+Z9 OV;C;10.5b;63
+32
+Z10 !s110 1759241902
+!i10b 1
+Z11 !s108 1759241901.000000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/Simulation/Multiplexer/Multiplexer_test.vhd|
+Z13 !s107 C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/Simulation/Multiplexer/Multiplexer_test.vhd|
+!i113 1
+Z14 o-work work -2002 -explicit
+Z15 tExplicit 1 CvgOpt 0
+Abehaviour
+R1
+R2
+R3
+R4
+R5
+DEx4 work 16 multiplexer_test 0 22 eVO`76mdc95fNozaZlPS:0
+l355
+L17
+Vfm^JMl9d[O1Pn<DDzce?k2
+!s100 oNl8Afnf>?PS8`ej45b3Q3
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Pswdcomponents
+R2
+R4
+R5
+Z16 w1759155037
+R6
+Z17 8C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDComponents.vhd
+Z18 FC:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDComponents.vhd
+l0
+L8
+ViOF3b7fOghAN[5@B6D>lT2
+!s100 6g4zJX0QS?bF7X=FmdC^<1
+R9
+32
+b1
+R10
+!i10b 1
+Z19 !s108 1759241902.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDComponents.vhd|
+Z21 !s107 C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDComponents.vhd|
+!i113 1
+R14
+R15
+Bbody
+R3
+R2
+R4
+R5
+l0
+L165
+Vfd7zGJldjYnhH35FGFUl73
+!s100 eO`EaBm=L4?@baU<9APeT3
+R9
+32
+R10
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R14
+R15
+Eswddbgmux
+Z22 w1759152347
+R4
+R5
+R6
+Z23 8C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDDbgMux.vhd
+Z24 FC:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDDbgMux.vhd
+l0
+L5
+Vd9en4@o]VU0_NTGz3FonW1
+!s100 neSiXJT]3eo<K<gJW0`:63
+R9
+32
+R10
+!i10b 1
+R19
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDDbgMux.vhd|
+Z26 !s107 C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDDbgMux.vhd|
+!i113 1
+R14
+R15
+Abehaviour
+R4
+R5
+DEx4 work 9 swddbgmux 0 22 d9en4@o]VU0_NTGz3FonW1
+l16
+L15
+V@?doLY08?>`]`m]e<TQcK1
+!s100 :nA6RS_1f4H0l@^k1l2k62
+R9
+32
+R10
+!i10b 1
+R19
+R25
+R26
+!i113 1
+R14
+R15
+Eswddvcmux
+Z27 w1759154428
+R3
+R1
+R2
+R4
+R5
+R6
+Z28 8C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDDvcMux.vhd
+Z29 FC:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDDvcMux.vhd
+l0
+L8
+V993a`C^V;Sh0?c10l>XCX1
+!s100 :9i_BK7:>l=fOZNZ?`GDJ1
+R9
+32
+Z30 !s110 1759241903
+!i10b 1
+Z31 !s108 1759241903.000000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDDvcMux.vhd|
+Z33 !s107 C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDDvcMux.vhd|
+!i113 1
+R14
+R15
+Abehaviour
+R3
+R1
+R2
+R4
+R5
+DEx4 work 9 swddvcmux 0 22 993a`C^V;Sh0?c10l>XCX1
+l28
+L27
+Vck_iEG^ff;dSzjk:0]bI81
+!s100 d=QV6[be[To^gc5B=LZD]1
+R9
+32
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R14
+R15
+Eswdhch
+Z34 w1758384086
+R4
+R5
+R6
+Z35 8C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDHcH.vhd
+Z36 FC:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDHcH.vhd
+l0
+L4
+Vmoc9:YNH;H1CO@g71aEJ[0
+!s100 CHSP:njjL:[?AkDP9J=[n0
+R9
+32
+R30
+!i10b 1
+R31
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDHcH.vhd|
+Z38 !s107 C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDHcH.vhd|
+!i113 1
+R14
+R15
+Artl
+R4
+R5
+DEx4 work 6 swdhch 0 22 moc9:YNH;H1CO@g71aEJ[0
+l16
+L12
+VL_]D1FMQ?al<clm]]6]:X0
+!s100 b?@b3_Xi1;>mHS3ZF<FkB2
+R9
+32
+R30
+!i10b 1
+R31
+R37
+R38
+!i113 1
+R14
+R15
+Eswdlinereader
+Z39 w1758731901
+R4
+R5
+R6
+Z40 8C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDLineReader.vhd
+Z41 FC:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDLineReader.vhd
+l0
+L5
+VgWe:azndbna2;b`kh2Snk2
+!s100 ]TL6=i40F0j2nGmjz=`9:1
+R9
+32
+R30
+!i10b 1
+R31
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDLineReader.vhd|
+Z43 !s107 C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDLineReader.vhd|
+!i113 1
+R14
+R15
+Abehaviour
+R4
+R5
+DEx4 work 13 swdlinereader 0 22 gWe:azndbna2;b`kh2Snk2
+l16
+L15
+Vz43J<A<0FUU`W;dZ^zB7F0
+!s100 XNETKP>`=`O9Xhiag<[FT2
+R9
+32
+R30
+!i10b 1
+R31
+R42
+R43
+!i113 1
+R14
+R15
+Eswdmultiplexer
+Z44 w1759155452
+R3
+R1
+R2
+R4
+R5
+R6
+Z45 8C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDMultiplexer.vhd
+Z46 FC:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDMultiplexer.vhd
+l0
+L11
+VU9FJc^2JlPLW]_obio:Gd0
+!s100 ?BFe7RM1;Jn^zHP><li3R1
+R9
+32
+R30
+!i10b 1
+R31
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDMultiplexer.vhd|
+Z48 !s107 C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDMultiplexer.vhd|
+!i113 1
+R14
+R15
+Abehaviour
+R3
+R1
+R2
+R4
+R5
+DEx4 work 14 swdmultiplexer 0 22 U9FJc^2JlPLW]_obio:Gd0
+l37
+L29
+VBnH?hEg?2C16WfHFS]zEA3
+!s100 @LIz3WiFMB@X?lOOXB97^2
+R9
+32
+R30
+!i10b 1
+R31
+R47
+R48
+!i113 1
+R14
+R15
+Eswdprotocolengine
+Z49 w1758732753
+R2
+R3
+R4
+R5
+R6
+Z50 8C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDProtocolEngine.vhd
+Z51 FC:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDProtocolEngine.vhd
+l0
+L7
+V][CUATWNnI=mMM8kz9iWC1
+!s100 ]CNa9O1@@n>kckNEh3z6S3
+R9
+32
+Z52 !s110 1759241904
+!i10b 1
+R31
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDProtocolEngine.vhd|
+Z54 !s107 C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDProtocolEngine.vhd|
+!i113 1
+R14
+R15
+Abehaviour
+R2
+R3
+R4
+R5
+DEx4 work 17 swdprotocolengine 0 22 ][CUATWNnI=mMM8kz9iWC1
+l29
+L21
+VbQd8Yh>;65k_PGoh^@eTB0
+!s100 lbO3]c:6D295@=lB]YN=d3
+R9
+32
+R52
+!i10b 1
+R31
+R53
+R54
+!i113 1
+R14
+R15
+Eswdrst
+Z55 w1759155257
+R4
+R5
+R6
+Z56 8C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDRst.vhd
+Z57 FC:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDRst.vhd
+l0
+L4
+VhET[f0ceQ4mB8o]goHDa<3
+!s100 S1SogNOVkOZES=QA3J`?F3
+R9
+32
+R52
+!i10b 1
+Z58 !s108 1759241904.000000
+Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDRst.vhd|
+Z60 !s107 C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDRst.vhd|
+!i113 1
+R14
+R15
+Abehaviour
+R4
+R5
+DEx4 work 6 swdrst 0 22 hET[f0ceQ4mB8o]goHDa<3
+l16
+L14
+V;lWS9IA;X3M`E43SGW[]P1
+!s100 WYA8aFCHbEo`j2RTmTF1_1
+R9
+32
+R52
+!i10b 1
+R58
+R59
+R60
+!i113 1
+R14
+R15
+Eswdstatemachine
+Z61 w1759155610
+R1
+R4
+R5
+R6
+Z62 8C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDStateMachine.vhd
+Z63 FC:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDStateMachine.vhd
+l0
+L6
+VXG3S;EV14K6d[GSN6JL[H3
+!s100 NjdhRldG5cHIKFI6;kDh;1
+R9
+32
+R52
+!i10b 1
+R58
+Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDStateMachine.vhd|
+Z65 !s107 C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDStateMachine.vhd|
+!i113 1
+R14
+R15
+Abehaviour
+R1
+R4
+R5
+Z66 DEx4 work 15 swdstatemachine 0 22 XG3S;EV14K6d[GSN6JL[H3
+l59
+L19
+Z67 V9EQb1UW^g_XNZ6B::gl?j3
+Z68 !s100 2BG?dPl1JX]nWiILnjo_^2
+R9
+32
+R52
+!i10b 1
+R58
+R64
+R65
+!i113 1
+R14
+R15
+Eswdtchh
+Z69 w1758222037
+R4
+R5
+Z70 dC:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/Multiplexer/Simulation
+Z71 8C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/ProtocolEngine/SWDThcH.vhd
+Z72 FC:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/ProtocolEngine/SWDThcH.vhd
+l0
+L4
+VTa6:hhY^o3=dYfgN87?_70
+!s100 IjSI[ehXQZNo?2>FSPo`n0
+R9
+32
+Z73 !s110 1758384947
+!i10b 1
+Z74 !s108 1758384947.000000
+Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/ProtocolEngine/SWDThcH.vhd|
+Z76 !s107 C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/tests/ProtocolEngine/SWDThcH.vhd|
+!i113 1
+R14
+R15
+Artl
+R4
+R5
+DEx4 work 7 swdtchh 0 22 Ta6:hhY^o3=dYfgN87?_70
+l21
+L12
+Vo^_2L_7Gz4lmImP1GPf<O0
+!s100 DFJ<FmR;=?>M2h;41IPl42
+R9
+32
+R73
+!i10b 1
+R74
+R75
+R76
+!i113 1
+R14
+R15
+Eswdthch
+Z77 w1758385184
+R4
+R5
+R6
+Z78 8C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDThcH.vhd
+Z79 FC:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDThcH.vhd
+l0
+L4
+VJZbc=FYZ:MFz8eUGNI7Z]2
+!s100 E1>02LJmUAMV9fLAP12CT2
+R9
+32
+R10
+!i10b 1
+R19
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDThcH.vhd|
+Z81 !s107 C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/src/ProtocolMultiplexer/SWDThcH.vhd|
+!i113 1
+R14
+R15
+Artl
+R4
+R5
+DEx4 work 7 swdthch 0 22 JZbc=FYZ:MFz8eUGNI7Z]2
+l21
+L12
+VlnWlB7Q;O[1HH_Z`_>XoH2
+!s100 BRahiRS6CKMJUDXQmcQYT2
+R9
+32
+R10
+!i10b 1
+R19
+R80
+R81
+!i113 1
+R14
+R15
