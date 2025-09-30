@@ -1,17 +1,26 @@
-Copyright (c) [2025-present] [Jakob Simmerle]
+Copyright (c) [2025–present] [Jakob Simmerle]
 
-Permission is hereby granted, free of charge, to the TU Graz Racing Team, to use, copy, modify, and distribute this software and associated documentation files (the "Software"), subject to the following conditions:
+Permission is hereby granted, free of charge, to the TU Graz Racing Team, to use, copy, modify, and distribute this project and associated documentation files (the “Project”), which includes but is not limited to:
 
-Authorized Users: This Software may only be used by members of the TU Graz Racing Team, or persons explicitly authorized by the TU Graz Racing Team.
+- PCB design files
+- FPGA design files (including HDL code, bitstreams, and configuration files)
+- Firmware and supporting software
 
-Prohibited Uses: Any other use, including but not limited to commercial use, private research, redistribution outside of the TU Graz Racing Team, sublicensing, or sale, is strictly forbidden.
+subject to the following conditions:
 
-Attribution: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software used within the TU Graz Racing Team.
+Authorized Users
+This Project may only be used by members of the TU Graz Racing Team, or by persons explicitly authorized by the TU Graz Racing Team or by the copyright holder. The copyright holder retains full rights to use, modify, license, and distribute the Project without restriction.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Prohibited Uses
+Any other use, including but not limited to commercial use, private research, redistribution outside of the TU Graz Racing Team, sublicensing, or sale, is strictly forbidden.
+
+Attribution
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Project used within the TU Graz Racing Team.
+
+Third-Party Components
+Part of the source code, the files located in
+Firmware/fpga/src/ctucanfd_ip_core, are licensed under their own separate license located in Firmware/fpga/src/ctucanfd_ip_core/LICENSE.
+Use of those files must comply with the terms of their respective license, which takes precedence for that portion of the Project.
+
+Disclaimer
+THE PROJECT IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE PROJECT OR THE USE OR OTHER DEALINGS IN THE PROJECT.
