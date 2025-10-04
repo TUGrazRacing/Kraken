@@ -25,7 +25,7 @@
 var NAVTREE =
 [
   [ "Kraken", "index.html", [
-    [ "<img src=\"../../Documents/logo.png\" alt=\"<Kraken logo>\" width=\"50\"/> Kraken", "index.html", "index" ],
+    [ "<img src=\"./docs/Documents/logo.png\" alt=\"\" width=\"50\"/> Kraken", "index.html", "index" ],
     [ "Packages", "namespaces.html", [
       [ "Package List", "namespaces.html", "namespaces_dup" ]
     ] ],

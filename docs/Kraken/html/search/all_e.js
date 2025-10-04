@@ -3,7 +3,7 @@ var searchData=
   ['parity_0',['parity',['../classSWDStateMachine_1_1behaviour.html#a88876f5c397287b38b3d242fdfc016ca',1,'SWDStateMachine::behaviour']]],
   ['pcb_1',['PCB',['../index.html#autotoc_md5',1,'PCB'],['../index.html#autotoc_md9',1,'PCB']]],
   ['pin_2',['pin',['../classSWDDbgMux.html#a39a8a1e165705fed7792c8e675371eb5',1,'SWDDbgMux.pin'],['../classSWDDvcMux.html#af4fd020bf5fcf1624f41d9bfb74ed8d4',1,'SWDDvcMux.pin']]],
-  ['png_20alt_20kraken_20logo_20width_2050_20kraken_3',['&lt;img src=&quot;../../Documents/logo.png&quot; alt=&quot;&lt;Kraken logo&gt;&quot; width=&quot;50&quot;/&gt; Kraken',['../index.html',1,'']]],
+  ['png_20alt_20width_2050_20kraken_3',['&lt;img src=&quot;./docs/Documents/logo.png&quot; alt=&quot;&quot; width=&quot;50&quot;/&gt; Kraken',['../index.html',1,'']]],
   ['port_5fcount_4',['port_count',['../classSWDDvcMux.html#ad4463a694a1659c69ea94ee5bf12d1f5',1,'SWDDvcMux.port_count'],['../classSWDMultiplexer.html#ad4463a694a1659c69ea94ee5bf12d1f5',1,'SWDMultiplexer.port_count']]],
   ['process_5f0_5',['PROCESS_0',['../classSWDDvcMux_1_1behaviour.html#a9e3d5a1289cc0cd2f69ba8e03076b3da',1,'SWDDvcMux::behaviour']]],
   ['process_5f1_6',['PROCESS_1',['../classSWDHcH_1_1rtl.html#a67cbd29443fafed2b0446c1321a8e91c',1,'SWDHcH::rtl']]],
