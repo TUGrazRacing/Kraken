@@ -2,7 +2,7 @@ var searchData=
 [
   ['sel_0',['sel',['../classSWDDvcMux.html#a08e861cadf05d550e2e8620f958e9dad',1,'SWDDvcMux.sel'],['../classSWDMultiplexer.html#a08e861cadf05d550e2e8620f958e9dad',1,'SWDMultiplexer.sel']]],
   ['sel_5freg_1',['sel_reg',['../classSWDStateMachine_1_1behaviour.html#ab839b370e0b5f5b0fb632b8ef23bf035',1,'SWDStateMachine::behaviour']]],
-  ['src_20documents_20logo_20png_20alt_20kraken_20logo_20width_2050_20kraken_2',['&lt;img src=&quot;../../Documents/logo.png&quot; alt=&quot;&lt;Kraken logo&gt;&quot; width=&quot;50&quot;/&gt; Kraken',['../index.html',1,'']]],
+  ['src_20docs_20documents_20logo_20png_20alt_20width_2050_20kraken_2',['&lt;img src=&quot;./docs/Documents/logo.png&quot; alt=&quot;&quot; width=&quot;50&quot;/&gt; Kraken',['../index.html',1,'']]],
   ['start_5ftrn_3',['start_trn',['../classSWDStateMachine_1_1behaviour.html#a7ea656d0b044a9177d8beedb76e4cdd2',1,'SWDStateMachine::behaviour']]],
   ['state_4',['state',['../classSWDStateMachine_1_1behaviour.html#a736bc895bfaf729452e8468d17e2167e',1,'SWDStateMachine::behaviour']]],
   ['state_5fafter_5ftrn_5',['state_after_trn',['../classSWDStateMachine_1_1behaviour.html#aef502a5c9494d29f1e5972918da8ac42',1,'SWDStateMachine::behaviour']]],

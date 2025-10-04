@@ -19,7 +19,8 @@ var searchData=
   ['direction_5fdbg_5fmux_16',['direction_dbg_mux',['../classSWDProtocolEngine.html#ab83330e9d38adeeef0982edf7d921ac2',1,'SWDProtocolEngine']]],
   ['direction_5fdvc_5fmux_17',['direction_dvc_mux',['../classSWDProtocolEngine.html#a49dc57f0e14a1d7e05f9603c69aec7bb',1,'SWDProtocolEngine']]],
   ['direction_5fsig_18',['direction_sig',['../classSWDStateMachine_1_1behaviour.html#a77b788da80de89577c6404f97434591e',1,'SWDStateMachine::behaviour']]],
-  ['documents_20logo_20png_20alt_20kraken_20logo_20width_2050_20kraken_19',['&lt;img src=&quot;../../Documents/logo.png&quot; alt=&quot;&lt;Kraken logo&gt;&quot; width=&quot;50&quot;/&gt; Kraken',['../index.html',1,'']]],
-  ['dvcpins_20',['DvcPins',['../classSWDMultiplexer.html#ab0139da7c77884c57760edf1a9e42cc1',1,'SWDMultiplexer']]],
-  ['dvctodbg_21',['DvcToDbg',['../classSWDProtocolEngine.html#a6e3c44eb0eba95a53b307e7b58dc8fbf',1,'SWDProtocolEngine']]]
+  ['docs_20documents_20logo_20png_20alt_20width_2050_20kraken_19',['&lt;img src=&quot;./docs/Documents/logo.png&quot; alt=&quot;&quot; width=&quot;50&quot;/&gt; Kraken',['../index.html',1,'']]],
+  ['documents_20logo_20png_20alt_20width_2050_20kraken_20',['&lt;img src=&quot;./docs/Documents/logo.png&quot; alt=&quot;&quot; width=&quot;50&quot;/&gt; Kraken',['../index.html',1,'']]],
+  ['dvcpins_21',['DvcPins',['../classSWDMultiplexer.html#ab0139da7c77884c57760edf1a9e42cc1',1,'SWDMultiplexer']]],
+  ['dvctodbg_22',['DvcToDbg',['../classSWDProtocolEngine.html#a6e3c44eb0eba95a53b307e7b58dc8fbf',1,'SWDProtocolEngine']]]
 ];
