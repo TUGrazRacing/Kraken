@@ -25,18 +25,8 @@
 var NAVTREE =
 [
   [ "Kraken", "index.html", [
+    [ "<img src=\"../../Documents/logo.png\" alt=\"<Kraken logo>\" width=\"50\"/> Kraken", "index.html", "index" ],
     [ "Packages", "namespaces.html", [
-      [ "Description", "index.html#autotoc_md1", null ],
-      [ "Development tools", "index.html#autotoc_md2", [
-        [ "Fpga design", "index.html#autotoc_md3", null ],
-        [ "Firmware development", "index.html#autotoc_md4", null ],
-        [ "PCB", "index.html#autotoc_md5", null ]
-      ] ],
-      [ "Roadmap", "index.html#autotoc_md6", [
-        [ "FPGA", "index.html#autotoc_md7", null ],
-        [ "Nios II firmware", "index.html#autotoc_md8", null ],
-        [ "PCB", "index.html#autotoc_md9", null ]
-      ] ],
       [ "Package List", "namespaces.html", "namespaces_dup" ]
     ] ],
     [ "Design Units", "annotated.html", [
@@ -57,9 +47,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_s_w_d_components_8vhd.html"
+"SWDComponents_8vhd.html"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronization';
-var SYNCOFFMSG = 'click to enable panel synchronization';
-var LISTOFALLMEMBERS = 'List of all members';
+var SYNCONMSG = 'click to disable panel synchronisation';
+var SYNCOFFMSG = 'click to enable panel synchronisation';
