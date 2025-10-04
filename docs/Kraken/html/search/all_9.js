@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['numeric_5fstd_0',['numeric_std',['../classSWDDvcMux.html#a2edc34402b573437d5f25fa90ba4013e',1,'SWDDvcMux.numeric_std'],['../classSWDMultiplexer.html#a2edc34402b573437d5f25fa90ba4013e',1,'SWDMultiplexer.numeric_std'],['../classSWDStateMachine.html#a2edc34402b573437d5f25fa90ba4013e',1,'SWDStateMachine.numeric_std']]]
+  ['kraken_0',['&lt;img src=&quot;../../Documents/logo.png&quot; alt=&quot;&lt;Kraken logo&gt;&quot; width=&quot;50&quot; class=&quot;inline&quot;/&gt; Kraken',['../index.html',1,'']]]
 ];
