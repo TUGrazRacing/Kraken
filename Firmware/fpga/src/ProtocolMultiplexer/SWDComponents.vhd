@@ -7,6 +7,9 @@ use ieee.math_real.all;
 --! @details This package contains the necessary components to set up the SWDProtocolEngine for bidirectional multiplexing of the SWD protocol.
 package SWDComponents is
 
+	 -- Function to safely compute ceil(log2(N)) with a minimum of 1
+    function log2ceil_safe(n : integer) return integer;
+
     --! @brief Protocol engine state machine
     --! @param clk System clock
     --! @param reset System reset
@@ -59,7 +62,7 @@ package SWDComponents is
             port_count : integer := 1
         );
         port(
-            sel : in std_logic_vector(integer(ceil(log2(real(port_count))))-1 downto 0); -- generate the correct number of select lines. Should be synthesizable!
+            sel : in std_logic_vector(log2ceil_safe(port_count)-1 downto 0); -- generate the correct number of select lines. Should be synthesizable!
             toDebugger : out std_logic;
             toDevice : in std_logic;
             direction : in std_logic;
@@ -139,7 +142,7 @@ package SWDComponents is
             reset_out : out std_logic_vector(port_count-1 downto 0);
             clk_in : in std_logic;
             reset_in : in std_logic;
-            sel : in std_logic_vector(integer(ceil(log2(real(port_count))))-1 downto 0) -- generate the correct number of select lines. Should be synthesizable!
+            sel : in std_logic_vector(log2ceil_safe(port_count)-1 downto 0) -- generate the correct number of select lines. Should be synthesizable!
         );
     end component;
 
@@ -153,8 +156,7 @@ package SWDComponents is
 
 
 
-    -- Function to safely compute ceil(log2(N)) with a minimum of 1
-    function log2ceil_safe(n : integer) return integer;
+    
 
 
 end SWDComponents;

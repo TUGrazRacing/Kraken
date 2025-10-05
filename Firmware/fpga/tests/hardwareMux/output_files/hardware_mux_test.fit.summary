@@ -1,0 +1,18 @@
+Fitter Status : Successful - Sun Oct  5 21:08:57 2025
+Quartus Prime Version : 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+Revision Name : hardware_mux_test
+Top-level Entity Name : hardware_mux_test
+Family : MAX 10
+Device : 10M16SAU169C8G
+Timing Models : Final
+Total logic elements : 88 / 15,840 ( < 1 % )
+    Total combinational functions : 88 / 15,840 ( < 1 % )
+    Dedicated logic registers : 40 / 15,840 ( < 1 % )
+Total registers : 40
+Total pins : 7 / 130 ( 5 % )
+Total virtual pins : 0
+Total memory bits : 0 / 562,176 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 90 ( 0 % )
+Total PLLs : 0 / 1 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 1 ( 0 % )

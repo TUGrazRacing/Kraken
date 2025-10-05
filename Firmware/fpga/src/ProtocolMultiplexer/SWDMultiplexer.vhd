@@ -36,7 +36,7 @@ signal reset : std_logic := '0';
 
 begin
 
-reset <= linereset or reset_in;
+reset <= linereset and reset_in;
 
 
 devicemux : SWDDvcMux

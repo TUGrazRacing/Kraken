@@ -3,7 +3,7 @@ use ieee.std_logic_1164.all;
 
 entity SWDRst is
     port(
-        rst : out std_logic;
+        rst : out std_logic := '1';
         clk : in std_logic;
         data : in std_logic
     );
@@ -21,11 +21,11 @@ begin
                 if(counter < 50) then
                     counter <= counter + 1;
                 else
-                    rst <= '1';
+                    rst <= '0';
                     counter <= 0;
                 end if;
             else
-                rst <= '0';
+                rst <= '1';
                 counter <= 0;
             end if;
         end if;

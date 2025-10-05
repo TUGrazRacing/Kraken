@@ -1,0 +1,18 @@
+
+State Machine - |hardware_mux_test|SWDProtocolEngine:ProtocolEngine|SWDStateMachine:StateMachine|state_after_trn
+Name state_after_trn.TRN state_after_trn.TX state_after_trn.RX state_after_trn.ACK state_after_trn.RW state_after_trn.IDLE 
+state_after_trn.IDLE 0 0 0 0 0 0 
+state_after_trn.RW 0 0 0 0 1 1 
+state_after_trn.ACK 0 0 0 1 0 1 
+state_after_trn.RX 0 0 1 0 0 1 
+state_after_trn.TX 0 1 0 0 0 1 
+state_after_trn.TRN 1 0 0 0 0 1 
+
+State Machine - |hardware_mux_test|SWDProtocolEngine:ProtocolEngine|SWDStateMachine:StateMachine|state
+Name state.TRN state.TX state.RX state.ACK state.RW state.IDLE 
+state.IDLE 0 0 0 0 0 0 
+state.RW 0 0 0 0 1 1 
+state.ACK 0 0 0 1 0 1 
+state.RX 0 0 1 0 0 1 
+state.TX 0 1 0 0 0 1 
+state.TRN 1 0 0 0 0 1 

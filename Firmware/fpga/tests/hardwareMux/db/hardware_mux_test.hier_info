@@ -1,0 +1,122 @@
+|hardware_mux_test
+rst_mux => reset.IN0
+clk_in => SWDProtocolEngine:ProtocolEngine.clk
+clk_in => clk_out[0].DATAIN
+reset_in => reset.IN1
+reset_in => reset_out[0].DATAIN
+DbgPin <> DbgPin
+DvcPins[0] <> DvcPins[0]
+clk_out[0] << clk_in.DB_MAX_OUTPUT_PORT_TYPE
+reset_out[0] << reset_in.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hardware_mux_test|SWDProtocolEngine:ProtocolEngine
+clk => SWDRst:Linereset_detector.clk
+clk => SWDLineReader:fallingEdgeSampler.clk
+clk => SWDStateMachine:StateMachine.clk
+reset => reset_sig.IN1
+DbgToDvc => SWDRst:Linereset_detector.data
+DbgToDvc => SWDStateMachine:StateMachine.data_in_r
+DvcToDbg => SWDLineReader:fallingEdgeSampler.data_in
+highz <= SWDStateMachine:StateMachine.highz
+direction_dbg_mux <= SWDStateMachine:StateMachine.direction
+direction_dvc_mux <= SWDStateMachine:StateMachine.direction
+
+
+|hardware_mux_test|SWDProtocolEngine:ProtocolEngine|SWDRst:Linereset_detector
+rst <= rst~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clk => rst~reg0.CLK
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => counter[2].CLK
+clk => counter[3].CLK
+clk => counter[4].CLK
+clk => counter[5].CLK
+data => counter.OUTPUTSELECT
+data => counter.OUTPUTSELECT
+data => counter.OUTPUTSELECT
+data => counter.OUTPUTSELECT
+data => counter.OUTPUTSELECT
+data => counter.OUTPUTSELECT
+data => rst.OUTPUTSELECT
+
+
+|hardware_mux_test|SWDProtocolEngine:ProtocolEngine|SWDLineReader:fallingEdgeSampler
+clk => data_out~reg0.CLK
+data_in => data_out~reg0.DATAIN
+data_out <= data_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hardware_mux_test|SWDProtocolEngine:ProtocolEngine|SWDStateMachine:StateMachine
+clk => orundetect.CLK
+clk => trn_period[0].CLK
+clk => trn_period[1].CLK
+clk => sel_reg.CLK
+clk => data_counter[0].CLK
+clk => data_counter[1].CLK
+clk => data_counter[2].CLK
+clk => data_counter[3].CLK
+clk => data_counter[4].CLK
+clk => data_counter[5].CLK
+clk => ack_counter[0].CLK
+clk => ack_counter[1].CLK
+clk => addr[0].CLK
+clk => addr[1].CLK
+clk => isDP.CLK
+clk => RnW.CLK
+clk => trn_counter[0].CLK
+clk => trn_counter[1].CLK
+clk => isReg.CLK
+clk => isSel.CLK
+clk => rw_counter[0].CLK
+clk => rw_counter[1].CLK
+clk => rw_counter[2].CLK
+clk => rw_counter[3].CLK
+clk => protocol_error.CLK
+clk => parity.CLK
+clk => highz~reg0.CLK
+clk => direction_sig.CLK
+clk => ack_var[0].CLK
+clk => ack_var[1].CLK
+clk => ack_var[2].CLK
+clk => state_after_trn~7.DATAIN
+clk => state~7.DATAIN
+clk => direction~reg0.CLK
+reset => data_counter[0].ACLR
+reset => data_counter[1].ACLR
+reset => data_counter[2].ACLR
+reset => data_counter[3].ACLR
+reset => data_counter[4].ACLR
+reset => data_counter[5].ACLR
+reset => ack_counter[0].ACLR
+reset => ack_counter[1].ACLR
+reset => rw_counter[0].ACLR
+reset => rw_counter[1].ACLR
+reset => rw_counter[2].ACLR
+reset => rw_counter[3].ACLR
+reset => state~9.DATAIN
+data_in_r => state.OUTPUTSELECT
+data_in_r => state.OUTPUTSELECT
+data_in_r => state.OUTPUTSELECT
+data_in_r => state.OUTPUTSELECT
+data_in_r => state.OUTPUTSELECT
+data_in_r => state.OUTPUTSELECT
+data_in_r => parity.OUTPUTSELECT
+data_in_r => RnW.DATAB
+data_in_r => process_0.IN1
+data_in_r => process_0.IN1
+data_in_r => addr.DATAB
+data_in_r => addr.DATAB
+data_in_r => sel_reg.DATAB
+data_in_r => trn_period.DATAB
+data_in_r => trn_period.DATAB
+data_in_r => orundetect.DATAB
+data_in_r => process_0.IN1
+data_in_r => isDP.DATAB
+data_in_f => ack_var.DATAB
+data_in_f => ack_var.DATAB
+data_in_f => ack_var.DATAB
+direction <= direction~reg0.DB_MAX_OUTPUT_PORT_TYPE
+highz <= highz~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

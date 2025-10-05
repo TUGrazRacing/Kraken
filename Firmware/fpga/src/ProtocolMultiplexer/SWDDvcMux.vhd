@@ -25,10 +25,12 @@ end entity;
 
 
 architecture behaviour of SWDDvcMux is
+
+
 begin
 toDebugger <= pin(to_integer(unsigned(sel)));
 
-process(sel, toDevice, clk_in, reset_in, highz)
+process(sel, toDevice, clk_in, reset_in, highz, direction)
 begin
     pin <= (others => 'Z');
     clk_out <= (others => 'Z');
@@ -41,6 +43,8 @@ begin
         pin(to_integer(unsigned(sel))) <= toDevice; 
     end if;
 end process;
+
+
 
 
 end behaviour;

@@ -25,8 +25,17 @@ signal t_hchighz, t_thchighz, t_fchighz : std_logic := '0';
 signal data_out_f : std_logic := '0';
 signal direction : std_logic := '0';
 
+signal rst, reset_sig : std_logic := '1';
+
 
 begin
+
+	 Linereset_detector : SWDRst
+	 port map(
+		rst => rst,
+		clk => clk,
+		data => DbgToDvc
+	 );
     
 
     fallingEdgeSampler : SWDLineReader
@@ -39,12 +48,14 @@ begin
     StateMachine : SWDStateMachine
     port map(
         clk       => clk,
-        reset     => reset,
+        reset     => reset_sig,
         data_in_r => DbgToDvc,
         data_in_f => data_out_f,
         direction => direction,
         highz     => highz_sig
     );
+	 
+	 reset_sig <= rst and reset;
 
     direction_dbg_mux <= direction;
     direction_dvc_mux <= not direction;

@@ -1,4 +1,29 @@
-# 0 compiles, 11 failed with no errors.
+# Compile of SWDComponents.vhd was successful.
+# Compile of SWDDvcMux.vhd was successful.
+# Compile of SWDMultiplexer.vhd was successful.
+# Compile of SWDRst.vhd was successful.
+# Compile of SWDStateMachine.vhd was successful.
+# Compile of hardware_mux_test.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of Multiplexer_test.vhd was successful.
+vsim -gui work.multiplexer_test
+# vsim -gui work.multiplexer_test 
+# Start time: 21:21:01 on Oct 05,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading work.swdcomponents(body)
+# Loading ieee.numeric_std(body)
+# Loading work.multiplexer_test(behaviour)
+# Loading work.hardware_mux_test(behaviour)
+# ** Error: (vsim-13) Recompile work.swdprotocolengine because work.swdcomponents has changed.
+# ** Error (suppressible): (vsim-12) Recompile work.swdprotocolengine(behaviour) after work.swdprotocolengine is recompiled.
+# ** Error: (vsim-13) Recompile work.swdprotocolengine(behaviour) because work.swdcomponents has changed.
+# Load interrupted
+# Error loading design
+# End time: 21:21:02 on Oct 05,2025, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
 # Compile of Multiplexer_test.vhd was successful.
 # Compile of SWDThcH.vhd was successful.
 # Compile of SWDComponents.vhd was successful.
@@ -10,10 +35,11 @@
 # Compile of SWDProtocolEngine.vhd was successful.
 # Compile of SWDRst.vhd was successful.
 # Compile of SWDStateMachine.vhd was successful.
-# 11 compiles, 0 failed with no errors.
+# Compile of hardware_mux_test.vhd was successful.
+# 12 compiles, 0 failed with no errors.
 vsim -gui work.multiplexer_test
 # vsim -gui work.multiplexer_test 
-# Start time: 16:18:31 on Sep 30,2025
+# Start time: 21:21:15 on Oct 05,2025
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -21,30 +47,400 @@ vsim -gui work.multiplexer_test
 # Loading work.swdcomponents(body)
 # Loading ieee.numeric_std(body)
 # Loading work.multiplexer_test(behaviour)
-# Loading work.swdmultiplexer(behaviour)
-# Loading work.swddvcmux(behaviour)
-# Loading work.swddbgmux(behaviour)
+# Loading work.hardware_mux_test(behaviour)
 # Loading work.swdprotocolengine(behaviour)
 # Loading work.swdlinereader(behaviour)
 # Loading work.swdstatemachine(behaviour)
-# Loading work.swdrst(behaviour)
 add wave -position end  sim:/multiplexer_test/test_pin
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: Jakob  Hostname: LAPTOP-JAKOSI  ProcessID: 1564
-#           Attempting to use alternate WLF file "./wlfta5k0tf".
+#           Attempting to use alternate WLF file "./wlfthmgt9b".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlfta5k0tf
-add wave -position end  sim:/multiplexer_test/dbgpin
+#           Using alternate file: ./wlfthmgt9b
+add wave -position end  sim:/multiplexer_test/dvcpin(0)
 add wave -position end  sim:/multiplexer_test/clk
-add wave -position end  sim:/multiplexer_test/clk_out
-add wave -position 2  sim:/multiplexer_test/dvcpin(0)
+add wave -position end  sim:/multiplexer_test/clk_out(0)
 run -all
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /multiplexer_test/tb/devicemux
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /multiplexer_test/tb/devicemux
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /multiplexer_test/tb/devicemux
+# ** Note: JTAG to SWD transition!
+#    Time: 13400 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Line reset!
+#    Time: 24800 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Write test finished:
+#    Time: 34800 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Error:     - Data failed!
+#    Time: 34800 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Request passed!
+#    Time: 34800 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Read test finished:
+#    Time: 45600 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Error:     - Data failed!
+#    Time: 45600 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Request passed!
+#    Time: 45600 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Read test after wait ack finished:
+#    Time: 66400 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Error:     - Data failed!
+#    Time: 66400 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Request passed!
+#    Time: 66400 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Read test after fault ack finished:
+#    Time: 87200 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Error:     - Data failed!
+#    Time: 87200 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Request passed!
+#    Time: 87200 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Read test after parity error finished:
+#    Time: 108 us  Iteration: 0  Instance: /multiplexer_test
+# ** Error:     - Data failed!
+#    Time: 108 us  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Request passed!
+#    Time: 108 us  Iteration: 0  Instance: /multiplexer_test
+# ** Failure: Test finished!
+#    Time: 108500 ns  Iteration: 0  Process: /multiplexer_test/Host File: C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/Simulation/Multiplexer/Multiplexer_test.vhd
+# Break in Process Host at C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/Simulation/Multiplexer/Multiplexer_test.vhd line 465
+# could not find interpreter "ScintillaTk"
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Multiplexer_test.vhd was successful.
+# Compile of SWDThcH.vhd was successful.
+# Compile of SWDComponents.vhd was successful.
+# Compile of SWDDbgMux.vhd was successful.
+# Compile of SWDDvcMux.vhd was successful.
+# Compile of SWDHcH.vhd was successful.
+# Compile of SWDLineReader.vhd was successful.
+# Compile of SWDMultiplexer.vhd was successful.
+# Compile of SWDProtocolEngine.vhd was successful.
+# Compile of SWDRst.vhd was successful.
+# Compile of SWDStateMachine.vhd was successful.
+# Compile of hardware_mux_test.vhd was successful.
+# 12 compiles, 0 failed with no errors.
+restart
+# Loading work.swdcomponents(body)
+# Loading work.multiplexer_test(behaviour)
+# Loading work.hardware_mux_test(behaviour)
+# Loading work.swdprotocolengine(behaviour)
+# Loading work.swdrst(behaviour)
+# Loading work.swdlinereader(behaviour)
+# Loading work.swdstatemachine(behaviour)
+run -all
+# ** Note: JTAG to SWD transition!
+#    Time: 13400 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Line reset!
+#    Time: 24800 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Write test finished:
+#    Time: 34800 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Error:     - Data failed!
+#    Time: 34800 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Request passed!
+#    Time: 34800 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Read test finished:
+#    Time: 45600 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Error:     - Data failed!
+#    Time: 45600 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Request passed!
+#    Time: 45600 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Read test after wait ack finished:
+#    Time: 66400 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Error:     - Data failed!
+#    Time: 66400 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Request passed!
+#    Time: 66400 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Read test after fault ack finished:
+#    Time: 87200 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Error:     - Data failed!
+#    Time: 87200 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Request passed!
+#    Time: 87200 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note: Read test after parity error finished:
+#    Time: 108 us  Iteration: 0  Instance: /multiplexer_test
+# ** Error:     - Data failed!
+#    Time: 108 us  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Request passed!
+#    Time: 108 us  Iteration: 0  Instance: /multiplexer_test
+# ** Failure: Test finished!
+#    Time: 108500 ns  Iteration: 0  Process: /multiplexer_test/Host File: C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/Simulation/Multiplexer/Multiplexer_test.vhd
+# Break in Process Host at C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/Simulation/Multiplexer/Multiplexer_test.vhd line 465
+# could not find interpreter "ScintillaTk"
+restart
+add wave -position end  sim:/multiplexer_test/tb/ProtocolEngine/Linereset_detector/rst
+add wave -position end  sim:/multiplexer_test/tb/ProtocolEngine/StateMachine/state
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Note: JTAG to SWD transition!
+#    Time: 13400 ns  Iteration: 0  Instance: /multiplexer_test
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Note: Line reset!
+#    Time: 24800 ns  Iteration: 0  Instance: /multiplexer_test
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/multiplexer_test/tb/direction_dbg_mux
+add wave -position end  sim:/multiplexer_test/tb/direction_dvc_mux
+add wave -position end  sim:/multiplexer_test/tb/highz
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Note: Write test finished:
+#    Time: 34800 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Error:     - Data failed!
+#    Time: 34800 ns  Iteration: 0  Instance: /multiplexer_test
+# ** Note:     - Request passed!
+#    Time: 34800 ns  Iteration: 0  Instance: /multiplexer_test
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/multiplexer_test/tb/ProtocolEngine/StateMachine/reset
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Multiplexer_test.vhd was successful.
+# Compile of SWDThcH.vhd was successful.
+# Compile of SWDComponents.vhd was successful.
+# Compile of SWDDbgMux.vhd was successful.
+# Compile of SWDDvcMux.vhd was successful.
+# Compile of SWDHcH.vhd was successful.
+# Compile of SWDLineReader.vhd was successful.
+# Compile of SWDMultiplexer.vhd was successful.
+# Compile of SWDProtocolEngine.vhd was successful.
+# Compile of SWDRst.vhd was successful.
+# Compile of SWDStateMachine.vhd was successful.
+# Compile of hardware_mux_test.vhd was successful.
+# 12 compiles, 0 failed with no errors.
+restart
+# Loading work.swdcomponents(body)
+# Loading work.multiplexer_test(behaviour)
+# Loading work.hardware_mux_test(behaviour)
+# Loading work.swdprotocolengine(behaviour)
+# Loading work.swdrst(behaviour)
+# Loading work.swdlinereader(behaviour)
+# Loading work.swdstatemachine(behaviour)
+run -all
 # ** Note: JTAG to SWD transition!
 #    Time: 13400 ns  Iteration: 0  Instance: /multiplexer_test
 # ** Note: Line reset!
@@ -83,7 +479,7 @@ run -all
 #    Time: 93900 ns  Iteration: 0  Instance: /multiplexer_test
 # ** Failure: Test finished!
 #    Time: 93900 ns  Iteration: 0  Process: /multiplexer_test/Host File: C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/Simulation/Multiplexer/Multiplexer_test.vhd
-# Break in Process Host at C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/Simulation/Multiplexer/Multiplexer_test.vhd line 451
+# Break in Process Host at C:/Users/Jakob/Documents/dev/RacingTeam/Kraken/Firmware/fpga/Simulation/Multiplexer/Multiplexer_test.vhd line 466
 # could not find interpreter "ScintillaTk"
-# End time: 16:44:52 on Sep 30,2025, Elapsed time: 0:26:21
-# Errors: 1, Warnings: 5
+# End time: 21:37:07 on Oct 05,2025, Elapsed time: 0:15:52
+# Errors: 14, Warnings: 2

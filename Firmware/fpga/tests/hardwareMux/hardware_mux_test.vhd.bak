@@ -1,0 +1,49 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use work.SWDComponents.all;
+
+
+entity hardware_mux_test is
+port (
+	rst_mux : in std_logic;
+	clk_in : in std_logic;
+	reset_in : in std_logic;
+	DbgPin : inout std_logic;
+	DvcPins : inout std_logic_vector(0 downto 0);
+	clk_out : inout std_logic_vector(0 downto 0);
+	reset_out : inout std_logic_vector(0 downto 0);
+);
+end entity;
+
+
+
+
+
+architecture behaviour of hardware_mux_test is
+
+signal sel : std_logic_vector(0 downto 0) := "1";
+signal reset : std_logic := '0';
+
+begin
+
+reset <= rst_mux and reset_in;
+
+
+mux : SWDMultiplexer 
+generic map(
+	port_count => 1
+)
+port map(
+	DbgPin => DbgPin,
+	DvcPins => DvcPins,
+	clk_out => clk_out,
+	reset_out => reset_out,
+	clk_in => clk_in,
+	reset_in => reset,
+	sel => sel
+);
+
+
+
+
+end behaviour;

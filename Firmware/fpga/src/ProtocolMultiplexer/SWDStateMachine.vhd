@@ -57,10 +57,10 @@ end procedure;
 
 
 begin
-    process(clk)
+    process(clk, reset)
     variable ack_var : std_logic_vector(2 downto 0) := (others => '0');
     begin
-        if(clk'event and clk='1') then
+		if(clk'event and clk='1') then
             case state is
                 when IDLE =>
                     direction_sig <= '0';
@@ -199,16 +199,15 @@ begin
                         
                 when others =>
                     state <= IDLE;
-            end case;
-                
-        else
-            if(reset='1') then       -- asynch reset
-                state <= IDLE;
-                rw_counter <= 0;
-                ack_counter <= 0;
-                data_counter <= 0;
-            end if;
-        end if;
+            end case;    
+	   end if;
+  
+		if(reset='0') then       -- asynch reset
+			 state <= IDLE;
+			 rw_counter <= 0;
+			 ack_counter <= 0;
+			 data_counter <= 0;
+		end if;
     end process;
 
     process(clk)

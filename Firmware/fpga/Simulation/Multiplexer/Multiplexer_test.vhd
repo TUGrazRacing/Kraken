@@ -346,28 +346,43 @@ signal test_request_host, test_request_device : std_logic_vector(2 downto 0);
 signal read_comming : std_logic := '0';
 signal line_reset : std_logic := '0';
 
-signal clk, reset, dbgpin : std_logic := '0';
+signal clk, dbgpin : std_logic := '0';
 signal sel : std_logic_vector(0 downto 0);
 signal dvcpin, clk_out, reset_out : std_logic_vector(0 downto 0) := (others => 'Z');
 signal DvcToDbg : std_logic := 'Z';
+signal reset : std_logic := '1';
+
+
+component hardware_mux_test is
+  port (
+	rst_mux : in std_logic := '1';
+	clk_in : in std_logic := '0';
+	reset_in : in std_logic := '1';
+	DbgPin : inout std_logic := 'Z';
+	DvcPins : inout std_logic_vector(0 downto 0) := (others => 'Z');
+	clk_out : out std_logic_vector(0 downto 0) := (others => 'Z');
+	reset_out : out std_logic_vector(0 downto 0) := (others => 'Z')
+);
+end component;
+
+
+
+
 
 
 begin
 clk <= not clk after 100 ns;
 
 
-  tb : SWDMultiplexer
-generic map(
-  port_count => 1
-)
+tb : hardware_mux_test
 port map(
+rst_mux => '1',
+clk_in => clk,
+reset_in => reset,
 DbgPin => test_pin,
 DvcPins => dvcpin,
 clk_out => clk_out,
-reset_out => reset_out,
-clk_in => clk,
-reset_in => reset,
-sel => sel
+reset_out => reset_out
 );
 
 
