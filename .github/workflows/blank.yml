@@ -50,7 +50,7 @@ jobs:
         run: |
           git worktree add /tmp/gh-pages gh-pages || git worktree add -B gh-pages /tmp/gh-pages
           rm -rf /tmp/gh-pages/*
-          cp -r ${{ github.workspace }}/docs/Kraken/html/* /tmp/gh-pages/
+          cp -r ${{ github.workspace }}/docs/* /tmp/gh-pages/
           cd /tmp/gh-pages
           git add .
           git commit -m "chore: update Doxygen docs [skip ci]" || echo "Nothing to commit"
