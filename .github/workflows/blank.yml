@@ -38,9 +38,6 @@ jobs:
           working-directory: ./
           doxyfile-path: ./docs/Kraken/Doxyfile
 
-      - name: Check permissions
-        run: ls -lR docs/Kraken/html
-
       - name: Commit and push docs
         run: |
           git config --global user.name "github-actions[bot]"
@@ -51,10 +48,11 @@ jobs:
 
       - name: Deploy pages
         run: |
-          git checkout gh-pages
-          git rm -rf .
-          git clean -fd
-          git commit -m "chore: reset gh-pages branch [skip ci]" || echo "Nothing to commit"
+          git worktree add /tmp/gh-pages gh-pages || git worktree add -B gh-pages /tmp/gh-pages
+          rm -rf /tmp/gh-pages/*
+          cp -r ${{ github.workspace }}/docs/Kraken/html/* /tmp/gh-pages/
+          cd /tmp/gh-pages
+          git add .
+          git commit -m "chore: update Doxygen docs [skip ci]" || echo "Nothing to commit"
           git push origin gh-pages --force
-          git checkout main -- docs/
 
