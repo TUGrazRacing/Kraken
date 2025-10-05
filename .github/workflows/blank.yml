@@ -46,19 +46,12 @@ jobs:
           git commit -m "chore: update Doxygen docs [skip ci]" || echo "No changes to commit"
           git push
 
-      - name: Reset gh-pages branch
+      - name: Deploy pages
         run: |
-          git fetch origin gh-pages
           git checkout gh-pages
-          chmod -R u+w docs/Kraken/html
           git rm -rf .
           git clean -fd
           git commit -m "chore: reset gh-pages branch [skip ci]" || echo "Nothing to commit"
           git push origin gh-pages --force
-          git checkout main
+          git checkout main -- docs/
 
-      - name: Deploy pages
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: docs/ # The folder the action should deploy.
-          clean: true
