@@ -30,14 +30,13 @@ jobs:
 
       - name: Setup
         run: |
-          cd ${{ github.workspace }}/docs/Kraken
-          rm -rf ./html
+          rm -rf ${{ github.workspace }}/docs/Kraken/html
 
       - name: Build documentation
         uses: mattnotmitt/doxygen-action@v1
         with:
-          working-directory: ${{ github.workspace }}
-          doxyfile-path: ${{ github.workspace }}/docs/Kraken/Doxyfile
+          working-directory: ./
+          doxyfile-path: ./docs/Kraken/Doxyfile
 
       - name: Commit and push docs
         run: |
