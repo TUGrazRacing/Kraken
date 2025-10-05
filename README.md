@@ -1,4 +1,10 @@
-# <img src="./docs/Documents/logo.png" alt="" width="50"/> Kraken
+
+<p align="left">
+  <img src="./docs/Documents/logo.png" alt="" width="50" align="left"/>
+</p>
+
+# Kraken
+
 ## Description
 The Kraken is a project aimed to reduce the effort of debugging the TANKIAs MCU firmware. It allows an external J-Link Segger debugger to reprogram/debug the PCBs of the LV stack without needing to open the car. It is a platform build based on a fpga containing custom bidirectional control logic in order to multiplex the SWD protocol signals, the CTU CAN FD controller, and a nios II softcore microcontroller to manage the control flow. [Documentation mainpage](https://tugrazracing.github.io/Kraken/Kraken/html/index.html)
 
