@@ -38,6 +38,9 @@ jobs:
           working-directory: ./
           doxyfile-path: ./docs/Kraken/Doxyfile
 
+      - name: Check permissions
+        run: ls -lR docs/Kraken/html
+
       - name: Commit and push docs
         run: |
           git config --global user.name "github-actions[bot]"
