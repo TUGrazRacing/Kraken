@@ -46,6 +46,16 @@ jobs:
           git commit -m "chore: update Doxygen docs [skip ci]" || echo "No changes to commit"
           git push
 
+      - name: Reset gh-pages branch
+        run: |
+          git fetch origin gh-pages
+          git checkout gh-pages
+          git rm -rf .
+          git clean -fd
+          git commit -m "chore: reset gh-pages branch [skip ci]" || echo "Nothing to commit"
+          git push origin gh-pages --force
+          git checkout main
+
       - name: Deploy pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
