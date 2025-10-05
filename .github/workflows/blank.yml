@@ -50,6 +50,7 @@ jobs:
         run: |
           git fetch origin gh-pages
           git checkout gh-pages
+          chmod -R u+w docs/Kraken/html
           git rm -rf .
           git clean -fd
           git commit -m "chore: reset gh-pages branch [skip ci]" || echo "Nothing to commit"
