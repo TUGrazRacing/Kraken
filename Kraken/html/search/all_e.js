@@ -1,22 +1,12 @@
 var searchData=
 [
-  ['parity_0',['parity',['../classSWDStateMachine_1_1behaviour.html#a88876f5c397287b38b3d242fdfc016ca',1,'SWDStateMachine::behaviour']]],
-  ['pcb_1',['PCB',['../index.html#autotoc_md5',1,'PCB'],['../index.html#autotoc_md9',1,'PCB']]],
-  ['pin_2',['pin',['../classSWDDbgMux.html#a39a8a1e165705fed7792c8e675371eb5',1,'SWDDbgMux.pin'],['../classSWDDvcMux.html#af4fd020bf5fcf1624f41d9bfb74ed8d4',1,'SWDDvcMux.pin']]],
-  ['png_20alt_20width_2050_20kraken_3',['&lt;img src=&quot;./docs/Documents/logo.png&quot; alt=&quot;&quot; width=&quot;50&quot;/&gt; Kraken',['../index.html',1,'']]],
-  ['port_5fcount_4',['port_count',['../classSWDDvcMux.html#ad4463a694a1659c69ea94ee5bf12d1f5',1,'SWDDvcMux.port_count'],['../classSWDMultiplexer.html#ad4463a694a1659c69ea94ee5bf12d1f5',1,'SWDMultiplexer.port_count']]],
-  ['process_5f0_5',['PROCESS_0',['../classSWDDvcMux_1_1behaviour.html#a9e3d5a1289cc0cd2f69ba8e03076b3da',1,'SWDDvcMux::behaviour']]],
-  ['process_5f1_6',['PROCESS_1',['../classSWDHcH_1_1rtl.html#a67cbd29443fafed2b0446c1321a8e91c',1,'SWDHcH::rtl']]],
-  ['process_5f2_7',['PROCESS_2',['../classSWDHcH_1_1rtl.html#a05737ac79f6a8260c73c7b9c2d3e103c',1,'SWDHcH::rtl']]],
-  ['process_5f3_8',['PROCESS_3',['../classSWDLineReader_1_1behaviour.html#a00d9e7e8c17b5cd71bc4c4b432911468',1,'SWDLineReader::behaviour']]],
-  ['process_5f4_9',['PROCESS_4',['../classSWDRst_1_1behaviour.html#a48eca184941965dba78b02eb271c3488',1,'SWDRst::behaviour']]],
-  ['process_5f5_10',['PROCESS_5',['../classSWDStateMachine_1_1behaviour.html#af31351337dd558ae650ff865475dd41f',1,'SWDStateMachine::behaviour']]],
-  ['process_5f6_11',['PROCESS_6',['../classSWDStateMachine_1_1behaviour.html#aae038a3ecdc8e66ed9c382db9a7706fd',1,'SWDStateMachine::behaviour']]],
-  ['process_5f7_12',['PROCESS_7',['../classSWDThcH_1_1rtl.html#a6cc276b9a3076e40ac68b8ac3f1828a7',1,'SWDThcH::rtl']]],
-  ['process_5f8_13',['PROCESS_8',['../classSWDThcH_1_1rtl.html#aa3c4aa3619a4c71c11970f5ede49114b',1,'SWDThcH::rtl']]],
-  ['protocol_5ferror_14',['protocol_error',['../classSWDStateMachine_1_1behaviour.html#a00e99fa590fb729d5dee07f988fc8f5d',1,'SWDStateMachine::behaviour']]],
-  ['pulse_5factive_5ff_15',['pulse_active_f',['../classSWDThcH_1_1rtl.html#a4820560f2a2b359c7bd6148631b1484f',1,'SWDThcH::rtl']]],
-  ['pulse_5factive_5fr_16',['pulse_active_r',['../classSWDThcH_1_1rtl.html#a78c51617b561de8d69456ba1aaf69b6f',1,'SWDThcH::rtl']]],
-  ['pulse_5ffall_17',['pulse_fall',['../classSWDHcH_1_1rtl.html#a6dbcd197484355a7d35e15d8496989d8',1,'SWDHcH::rtl']]],
-  ['pulse_5frise_18',['pulse_rise',['../classSWDHcH_1_1rtl.html#a7eb2e5c74358e02a39ed8c82f6383acd',1,'SWDHcH::rtl']]]
+  ['readme_2emd_0',['README.md',['../README_8md.html',1,'']]],
+  ['reset_1',['reset',['../classSWDMultiplexer_1_1behaviour.html#aef46c4fe849bd62c0ccf6734c946d9e8',1,'SWDMultiplexer.behaviour.reset'],['../classSWDProtocolEngine.html#a108f6801ba4104063b9d5f9286194302',1,'SWDProtocolEngine.reset'],['../classSWDStateMachine.html#a108f6801ba4104063b9d5f9286194302',1,'SWDStateMachine.reset']]],
+  ['reset_5fin_2',['reset_in',['../classSWDDvcMux.html#a066659026bab75afd3f69da914d8c584',1,'SWDDvcMux.reset_in'],['../classSWDMultiplexer.html#a066659026bab75afd3f69da914d8c584',1,'SWDMultiplexer.reset_in']]],
+  ['reset_5fout_3',['reset_out',['../classSWDDvcMux.html#a86ea6a8514dd8a16d8862e0deb26bcd3',1,'SWDDvcMux.reset_out'],['../classSWDMultiplexer.html#a86ea6a8514dd8a16d8862e0deb26bcd3',1,'SWDMultiplexer.reset_out']]],
+  ['rnw_4',['RnW',['../classSWDStateMachine_1_1behaviour.html#ab1934d573136f5180e75121818c0c8c5',1,'SWDStateMachine::behaviour']]],
+  ['roadmap_5',['Roadmap',['../index.html#autotoc_md6',1,'']]],
+  ['rst_6',['rst',['../classSWDRst.html#a352387ac1c11448edf5830e9b3408485',1,'SWDRst']]],
+  ['rtl_7',['rtl',['../classSWDHcH_1_1rtl.html',1,'SWDHcH.rtl'],['../classSWDThcH_1_1rtl.html',1,'SWDThcH.rtl']]],
+  ['rw_5fcounter_8',['rw_counter',['../classSWDStateMachine_1_1behaviour.html#a110ec67b2d092f03d0015a7fc6608528',1,'SWDStateMachine::behaviour']]]
 ];

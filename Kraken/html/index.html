@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Kraken: &lt;img src=&quot;./docs/Documents/logo.png&quot; alt=&quot;&quot; width=&quot;50&quot;/&gt; Kraken</title>
+<title>Kraken: Kraken</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -97,42 +97,46 @@ $(function(){initNavTree('index.html',''); initResizable(true); });
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title"><img src="./docs/Documents/logo.png" alt="" width="50" class="inline"/> Kraken </div></div>
+  <div class="headertitle"><div class="title">Kraken </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="md__2github_2workspace_2README"></a></p>
-<h1><a class="anchor" id="autotoc_md1"></a>
-Description</h1>
+<div class="textblock"><p><a class="anchor" id="md_README"></a></p>
+<p align="left"></p>
+<p><img src="./docs/Documents/logo.png" alt="" width="50" align="left" class="inline"/> </p>
+<h1><a class="anchor" id="autotoc_md0"></a>
+Kraken</h1>
+<h2><a class="anchor" id="autotoc_md1"></a>
+Description</h2>
 <p>The Kraken is a project aimed to reduce the effort of debugging the TANKIAs MCU firmware. It allows an external J-Link Segger debugger to reprogram/debug the PCBs of the LV stack without needing to open the car. It is a platform build based on a fpga containing custom bidirectional control logic in order to multiplex the SWD protocol signals, the CTU CAN FD controller, and a nios II softcore microcontroller to manage the control flow. <a href="https://tugrazracing.github.io/Kraken/Kraken/html/index.html">Documentation mainpage</a></p>
 <p><img src="./docs/Documents/Fpga/fpga_architecture.png" alt="" width="800" class="inline"/></p>
 <p><br  />
 </p>
-<h1><a class="anchor" id="autotoc_md2"></a>
-Development tools</h1>
-<h2><a class="anchor" id="autotoc_md3"></a>
-Fpga design</h2>
+<h2><a class="anchor" id="autotoc_md2"></a>
+Development tools</h2>
+<h3><a class="anchor" id="autotoc_md3"></a>
+Fpga design</h3>
 <ul>
 <li>Quartus prime Lite: For Synthesis, Place &amp; Route, Platform design and Intel IP cores</li>
 <li>Visual Studio Code: As code editor for the .vhd files</li>
 <li>Intel ModelSim: For simulation of the fpga design</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md4"></a>
-Firmware development</h2>
+<h3><a class="anchor" id="autotoc_md4"></a>
+Firmware development</h3>
 <ul>
 <li>Nios II Software build tool for Eclipse: For development and compilation of the nios II firmware</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md5"></a>
-PCB</h2>
+<h3><a class="anchor" id="autotoc_md5"></a>
+PCB</h3>
 <ul>
 <li>Altium: For PCB design and schematics</li>
 <li>LTSpice: For simulation of the PCB</li>
 </ul>
 <p><br  />
 </p>
-<h1><a class="anchor" id="autotoc_md6"></a>
-Roadmap</h1>
-<h2><a class="anchor" id="autotoc_md7"></a>
-FPGA</h2>
+<h2><a class="anchor" id="autotoc_md6"></a>
+Roadmap</h2>
+<h3><a class="anchor" id="autotoc_md7"></a>
+FPGA</h3>
 <ul class="check">
 <li class="checked">Test nios II softcore microcontroller</li>
 <li class="unchecked">Build custom bidirectional protocol multiplexer<ul class="check">
@@ -168,16 +172,16 @@ FPGA</h2>
 </ul>
 </li>
 </ul>
-<h2><a class="anchor" id="autotoc_md8"></a>
-Nios II firmware</h2>
+<h3><a class="anchor" id="autotoc_md8"></a>
+Nios II firmware</h3>
 <p>Wait for the fpga to be finished and tested.</p><ul class="check">
 <li class="unchecked">Create control flow for the CAN controller and implement usage of UFM for persistent values</li>
 </ul>
 <ul class="check">
 <li class="unchecked">Status leds</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md9"></a>
-PCB</h2>
+<h3><a class="anchor" id="autotoc_md9"></a>
+PCB</h3>
 <p>Wait for fpga and firmware to be finished and tested.</p><ul class="check">
 <li class="unchecked">Estigmate fpga ressources and choose fpga size</li>
 </ul>

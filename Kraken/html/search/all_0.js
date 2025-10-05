@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['50_20kraken_0',['&lt;img src=&quot;./docs/Documents/logo.png&quot; alt=&quot;&quot; width=&quot;50&quot;/&gt; Kraken',['../index.html',1,'']]]
+  ['_5fswdcomponents_0',['_SWDComponents',['../class__SWDComponents.html',1,'']]]
 ];
