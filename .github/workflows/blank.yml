@@ -30,24 +30,29 @@ jobs:
 
       - name: Setup
         run: |
-          cd ${{ github.workspace }}/docs/Kraken
-          rm -rf ./html
+          rm -rf ${{ github.workspace }}/docs/Kraken/html
 
       - name: Build documentation
         uses: mattnotmitt/doxygen-action@v1
         with:
-          working-directory: docs/Kraken
-          doxyfile-path: Doxyfile
+          working-directory: ./
+          doxyfile-path: ./docs/Kraken/Doxyfile
 
       - name: Commit and push docs
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add ${{ github.workspace }}/docs/Kraken/html/* -f
-          git commit -m "chore: update Doxygen docs [skip ci]" || echo "No changes to commit"
+          git commit --allow-empty -m "chore: update Doxygen docs [skip ci]" || echo "No changes to commit"
           git push
 
       - name: Deploy pages
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: docs/ # The folder the action should deploy.
+        run: |
+          git worktree add /tmp/gh-pages gh-pages || git worktree add -B gh-pages /tmp/gh-pages
+          rm -rf /tmp/gh-pages/*
+          cp -r ${{ github.workspace }}/docs/ /tmp/gh-pages/
+          cd /tmp/gh-pages
+          git add .
+          git commit -m "chore: update Doxygen docs [skip ci]" || echo "Nothing to commit"
+          git push origin gh-pages --force
+
